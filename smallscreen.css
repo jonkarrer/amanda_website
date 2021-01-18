@@ -7,15 +7,20 @@
 body,html{
   width: 100vw;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
+}
+main{
+  overflow: hidden;
 }
 .navbar{
+  background: whitesmoke;
   font-family: 'Bodoni Moda', serif;
-  border-bottom: rgb(165, 1, 165) solid thin;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
 }
 /* Logo Tools*/
 #logo{
@@ -39,10 +44,22 @@ body,html{
 #name{
   font-weight: 600;
 }
+/*Drop Down tools*/
 #drop-down-menu{
-  letter-spacing: -2px;
-  font-size: 40px;
-  margin: 15px;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+#drop-down-line{
+  width: 50px;
+  height: 5px;
+  background-color: rgb(165, 1, 165);
+}
+#drop-down-line2{
+  width: 50px;
+  height: 12px;
 }
 /*Bio Tools*/
 .bio-box{
@@ -50,7 +67,7 @@ body,html{
   justify-content: flex-end;
   height: 100vh; 
   width: 100vw;
-  background-image: url("black_white_action.jpg");
+  background-image: url("light_pose.jpg");
   background-color: #cccccc;
   background-position: center; 
   background-repeat: no-repeat;
@@ -72,7 +89,7 @@ body,html{
   justify-content: flex-end;
   border: rgb(165, 1, 165) solid thin;
   border-top: none;
-  height: 80%;
+  height: 70vh;
   width: 100%;
   padding: 7px;
   background: rgba(134, 130, 134, .5);
@@ -82,42 +99,29 @@ body,html{
   color: rgb(165, 1, 165) 
 }
 /*Extension Tools*/
-.extensions-wrapper{
+.page-two-wrapper{
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
-.extensions-title{
-  font-family: 'Bodoni Moda', serif;
-  letter-spacing: -2px;
-  font-size: 7.5vw;
-  margin-top: 40px;
-}
-#by2{
-  color: rgb(165, 1, 165);
-  font-weight: 900;
-  font-size: 8vw;
-}
 .invisible-bead_box-wrapper{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 3vw;
 }
 #invisible-bead-img{
   object-fit: contain;
-  width: 60vw;
-  height: 60vh;
+  width: 50vw;
+  height: 40vh;
 }
 #invisible-bead_info {
   width: 70vw;
   text-align: left;
   margin-left: 70px;
   margin-right: 70px;
-  margin-top: 2vw;
-  padding: 40px;
-  font-size: 20px;
+  padding: 20px;
+  font-size: 23px;
   border: rgb(165, 1, 165) solid thin;
 }
 p{
