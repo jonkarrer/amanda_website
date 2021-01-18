@@ -25,14 +25,14 @@ main{
 /* Logo Tools*/
 #logo{
   letter-spacing: -2px;
-  font-size: 23px;
+  font-size: 5vw;
   margin: 15px;
   margin-bottom: 2px;
 }
 #by{
   color: rgb(165, 1, 165);
   font-weight: 900;
-  font-size: 27px;
+  font-size: 5.7vw;
 }
 #dot{
   color: rgb(165, 1, 165);
@@ -101,9 +101,21 @@ main{
 /*Extension Tools*/
 .page-two-wrapper{
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: wheat;
+}
+.platform-wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 90%;
+  background: white;
+  box-shadow: hsla(200, 20%, 50%, .6) 0px 0px 40px 10px;
+  border-radius: .5rem;
 }
 .invisible-bead_box-wrapper{
   display: flex;
@@ -116,13 +128,12 @@ main{
   height: 40vh;
 }
 #invisible-bead_info {
-  width: 70vw;
+  width: 90%;
   text-align: left;
   margin-left: 70px;
   margin-right: 70px;
   padding: 20px;
   font-size: 23px;
-  border: rgb(165, 1, 165) solid thin;
 }
 p{
   margin: 5px;
@@ -134,4 +145,15 @@ button{
   width: 20%;
   margin-top: 5vw;
   border: none;
+  margin-bottom: 15px;
+  border-radius: .2rem;
+}
+button:hover{
+  cursor: pointer;
+}
+button:focus{
+  outline: none;
+}
+button:active{
+  background-color: ivory;
 }
