@@ -25,14 +25,14 @@ main{
 /* Logo Tools*/
 #logo{
   letter-spacing: -2px;
-  font-size: 32px;
+  font-size: 23px;
   margin: 15px;
   margin-bottom: 2px;
 }
 #by{
   color: rgb(165, 1, 165);
   font-weight: 900;
-  font-size: 34px;
+  font-size: 27px;
 }
 #dot{
   color: rgb(165, 1, 165);
@@ -53,13 +53,13 @@ main{
   padding: 10px;
 }
 #drop-down-line{
-  width: 50px;
-  height: 5px;
+  width: 30px;
+  height: 3px;
   background-color: rgb(165, 1, 165);
 }
 #drop-down-line2{
-  width: 50px;
-  height: 12px;
+  width: 30px;
+  height: 10px;
 }
 /*Bio Tools*/
 .bio-box{
