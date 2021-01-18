@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  line-height: 1.2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body,html{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.navbar{
+  font-family: 'Bodoni Moda', serif;
+  border-bottom: rgb(165, 1, 165) solid thin;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Logo Tools*/
+#logo{
+  letter-spacing: -2px;
+  font-size: 40px;
+  margin: 15px;
+  margin-bottom: 2px;
+}
+#by{
+  color: rgb(165, 1, 165);
+  font-weight: 900;
+  font-size: 42px;
+}
+#dot{
+  color: rgb(165, 1, 165);
+  font-weight: 900;
+}
+#hair{
+  letter-spacing: -3px;
+}
+#name{
+  font-weight: 600;
+}
+#drop-down-menu{
+  letter-spacing: -2px;
+  font-size: 40px;
+  margin: 15px;
+}
+/*Bio Tools*/
+.bio-box{
+  display: flex;
+  justify-content: flex-end;
+  height: 100vh; 
+  width: 100vw;
+  background-image: url("black_white_action.jpg");
+  background-color: #cccccc;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bio-word-content{
+  display: flex;
+  height: 100%;
+  font-family: 'Bodoni Moda', serif;
+  letter-spacing: -2px;
+  font-size: 40px;
+  margin-right: 5%;
+  font-size: 10vw;
+  color: white;
+}
+.bio-words{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: rgb(165, 1, 165) solid thin;
+  border-top: none;
+  height: 80%;
+  width: 100%;
+  padding: 7px;
+  background: rgba(134, 130, 134, .5);
+  font-weight: bold;
+}
+.extensions{
+  color: rgb(165, 1, 165) 
+}
+/*Extension Tools*/
+.extensions-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.extensions-title{
+  font-family: 'Bodoni Moda', serif;
+  letter-spacing: -2px;
+  font-size: 7.5vw;
+  margin-top: 40px;
+}
+#by2{
+  color: rgb(165, 1, 165);
+  font-weight: 900;
+  font-size: 8vw;
+}
+.invisible-bead_box-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3vw;
+}
+#invisible-bead-img{
+  object-fit: contain;
+  width: 60vw;
+  height: 60vh;
+}
+#invisible-bead_info {
+  width: 70vw;
+  text-align: left;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 2vw;
+  padding: 40px;
+  font-size: 20px;
+  border: rgb(165, 1, 165) solid thin;
+}
+p{
+  margin: 5px;
+}
+button{
+  background-color: rgb(165, 1, 165);
+  color: white;
+  height: 50px;
+  width: 20%;
+  margin-top: 5vw;
+  border: none;
+}

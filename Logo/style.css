@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  line-height: 1.2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#by{
+  color: rgb(165, 1, 165);
+  font-weight: 900;
+  font-size: 45px;
+}
+#dot{
+  color: rgb(165, 1, 165);
+  font-weight: 900;
+}
+#hair{
+  letter-spacing: -3px;
+}
+#title{
+  font-family: 'Bodoni Moda', serif;
+  letter-spacing: -2px;
+  font-size: 40px;
+  margin-left: 40px;
+}
+#name{
+  font-weight: 600;
+}
+#by2{
+  color: firebrick;
+  font-weight: 900;
+  font-size: 45px;
+}
+#dot2{
+  color: firebrick;
+  font-weight: 900;
+}
+#by3{
+  color: cyan;
+  font-weight: 900;
+  font-size: 45px;
+}
+#dot3{
+  color: cyan;
+  font-weight: 900;
+}
+#by4{
+  color:goldenrod;
+  font-weight: 900;
+  font-size: 45px;
+}
+#dot4{
+  color: goldenrod;
+  font-weight: 900;
+}
+#by5{
+  color:fuchsia;
+  font-weight: 900;
+  font-size: 45px;
+}
+#dot5{
+  color: fuchsia;
+  font-weight: 900;
+}
