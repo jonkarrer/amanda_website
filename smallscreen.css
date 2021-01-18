@@ -25,14 +25,14 @@ main{
 /* Logo Tools*/
 #logo{
   letter-spacing: -2px;
-  font-size: 5vw;
+  font-size: 6.5vw;
   margin: 15px;
   margin-bottom: 2px;
 }
 #by{
   color: rgb(165, 1, 165);
   font-weight: 900;
-  font-size: 5.7vw;
+  font-size: 7vw;
 }
 #dot{
   color: rgb(165, 1, 165);
