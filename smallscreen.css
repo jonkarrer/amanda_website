@@ -11,40 +11,35 @@ body,html{
 main{
   overflow: hidden;
 }
-.navbar{
+.navigation-bar{
   background: whitesmoke;
-  font-family: 'Bodoni Moda', serif;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   position: fixed;
+  top: 0;
+  font-family: 'Bodoni Moda', serif;
   width: 100%;
   overflow: hidden;
-  top: 0;
 }
 /* Logo Tools*/
-#logo{
+#logo-text{
+  margin: 10px;
+  margin-bottom: 10px;
   letter-spacing: -2px;
   font-size: 6.5vw;
-  margin: 15px;
-  margin-bottom: 2px;
 }
-#by{
+#by-text{
   color: rgb(165, 1, 165);
   font-weight: 900;
   font-size: 7vw;
 }
-#dot{
-  color: rgb(165, 1, 165);
-  font-weight: 900;
-}
-#hair{
+#hair-text{
   letter-spacing: -3px;
 }
-#name{
+#name-text{
   font-weight: 600;
 }
-/*Drop Down tools*/
+/*Drop Down Tools*/
 #drop-down-menu{
   display: flex;
   align-items: space-between;
@@ -52,17 +47,17 @@ main{
   margin: 10px;
   padding: 10px;
 }
-#drop-down-line{
-  width: 30px;
-  height: 3px;
+#drop-down-lines{
   background-color: rgb(165, 1, 165);
+  width: 40px;
+  height: 3px;
 }
-#drop-down-line2{
-  width: 30px;
+#drop-down-line-middle{
+  width: 40px;
   height: 10px;
 }
-/*Bio Tools*/
-.bio-box{
+/*Landing page Tools*/
+.landing-page-wrapper{
   display: flex;
   justify-content: flex-end;
   height: 100vh; 
@@ -73,87 +68,87 @@ main{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.bio-word-content{
+.landing-page-strip{
   display: flex;
   height: 100%;
-  font-family: 'Bodoni Moda', serif;
-  letter-spacing: -2px;
-  font-size: 40px;
-  margin-right: 5%;
+  margin-right: 6%;
   font-size: 10vw;
   color: white;
+  font-family: 'Bodoni Moda', serif;
+  letter-spacing: -2px;
 }
-.bio-words{
+.landing-page-strip_words{
+  background: rgba(134, 130, 134, .5);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  border: rgb(165, 1, 165) solid thin;
-  border-top: none;
   height: 70vh;
   width: 100%;
   padding: 7px;
-  background: rgba(134, 130, 134, .5);
+  border: rgb(165, 1, 165) solid thin;
+  border-top: none;
   font-weight: bold;
 }
-.extensions{
+#extensions{
   color: rgb(165, 1, 165) 
 }
-/*Extension Tools*/
+/*Page Two Tools*/
 .page-two-wrapper{
+  background-color: wheat;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: wheat;
 }
-.platform-wrapper{
+.white-modal{
+  background: white;
   display: flex;
   flex-direction: column;
   height: 80%;
   width: 90%;
-  background: white;
   box-shadow: hsla(200, 20%, 50%, .6) 0px 0px 40px 10px;
   border-radius: .5rem;
 }
-.invisible-bead_box-wrapper{
+.white-modal_content-wrapper{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#invisible-bead-img{
+#white-modal_img{
   object-fit: contain;
   width: 50vw;
   height: 40vh;
 }
-#invisible-bead_info {
+#white-modal_info {
   width: 90%;
-  text-align: left;
   margin-left: 70px;
   margin-right: 70px;
   padding: 20px;
   font-size: 23px;
+  text-align: left;
 }
-p{
+#white-modal_info > p{
   margin: 5px;
 }
-button{
+#white-modal_button{
   background-color: rgb(165, 1, 165);
   color: white;
   height: 50px;
-  width: 20%;
+  width: 30%;
   margin-top: 5vw;
-  border: none;
   margin-bottom: 15px;
+  border: none;
   border-radius: .2rem;
+  font-size: 20px;
 }
-button:hover{
+#white-modal_button:hover{
   cursor: pointer;
 }
-button:focus{
+#white-modal_button:focus{
   outline: none;
 }
-button:active{
+#white-modal_button:active{
   background-color: ivory;
 }
