@@ -62,7 +62,7 @@ main{
   justify-content: flex-end;
   height: 100vh; 
   width: 100vw;
-  background-image: url("light_pose.jpg");
+  background-image: url("./assets/light_pose.jpg");
   background-color: #cccccc;
   background-position: center; 
   background-repeat: no-repeat;
