@@ -14,8 +14,8 @@ const activate = () => {
 const deActivate = () => {
   hamburgerIcon.style.display = "flex";
   exIcon.style.display = "none";
+  dropDownModule.classList.toggle("open");
   dropdownOverlay.classList.toggle("open");
   dropdownOverlay.classList.toggle("open-active");
-  dropDownModule.classList.toggle("open");
  
 }
