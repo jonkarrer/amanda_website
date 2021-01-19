@@ -11,7 +11,6 @@ body,html {
 }
 main {
   overflow: hidden;
-  display: none;
 }
 .navigation-bar {
   background: whitesmoke;
@@ -186,21 +185,26 @@ main {
 }
 /*Dropdow module tools*/
 .drop-down_open-overlay.open {
-  background-color: rgba(75, 0, 130, .5);
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(75, 0, 130, .8);
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-  transition: all 2s ease;
+  transition: all 1s ease;
 }
+
 .drop-down_module {
+  position: fixed;
+  z-index: 1;
   display: flex;
   align-items: center;
   margin-top: 10vh;
-  height: 70vh;
+  height: 60vh;
+  min-height: 400px;
   width: 80vw;
   border-left: white solid 5px;
   transition: all 1s ease;
@@ -213,6 +217,7 @@ main {
   list-style: none;
   font-size: 11vw;
   font-weight: 600;
+  color: white;
 } 
 
 .drop-down_module ul li {
@@ -220,6 +225,6 @@ main {
 }
 li:hover {
   cursor: pointer;
-  color: white;
+  color: black;
 }
 
