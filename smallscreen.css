@@ -185,15 +185,16 @@ main {
   transform: rotate(90deg);
 }
 /*Dropdow module tools*/
-.drop-down_open-overlay {
+.drop-down_open-overlay.open {
   background-color: rgba(75, 0, 130, .5);
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  transition: all 2s ease;
 }
 .drop-down_module {
   display: flex;
@@ -202,14 +203,18 @@ main {
   height: 70vh;
   width: 80vw;
   border-left: white solid 5px;
-  transition: all 1.5s ease;
+  transition: all 1s ease;
+
 }
+.drop-down_open-overlay > *:first-child { transform: translateX(150%); }
+.drop-down_open-overlay.open-active > *:first-child { transform: translateX(0); }
+
 .drop-down_module ul {
   list-style: none;
-  font-size: 13vw;
-  transform: translateX(150%);
-  transition: transform 1s ease;
+  font-size: 11vw;
+  font-weight: 600;
 } 
+
 .drop-down_module ul li {
   padding: 2.5vh;
 }
