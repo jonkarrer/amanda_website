@@ -1,63 +1,71 @@
-*{
+* {
   margin: 0;
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Bodoni Moda', serif;
 }
-body,html{
+body,html {
   width: 100vw;
   height: 100vh;
 }
-main{
+main {
   overflow: hidden;
+  display: none;
 }
-.navigation-bar{
+.navigation-bar {
   background: whitesmoke;
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   position: fixed;
   top: 0;
-  font-family: 'Bodoni Moda', serif;
   width: 100%;
   overflow: hidden;
 }
 /* Logo Tools*/
-#logo-text{
+#logo-text {
   margin: 10px;
   margin-bottom: 10px;
   letter-spacing: -2px;
   font-size: 6.5vw;
 }
-#by-text{
+#by-text {
   color: rgb(165, 1, 165);
   font-weight: 900;
   font-size: 7vw;
 }
-#hair-text{
+#hair-text {
   letter-spacing: -3px;
 }
-#name-text{
+#name-text {
   font-weight: 600;
 }
 /*Drop Down Tools*/
-#drop-down-menu{
+#drop-down-menu {
   display: flex;
-  align-items: space-between;
   flex-direction: column;
-  margin: 10px;
+  margin-right: 8px;
   padding: 10px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
-#drop-down-lines{
+#drop-down-lines {
   background-color: rgb(165, 1, 165);
   width: 40px;
   height: 3px;
 }
-#drop-down-line-middle{
+#drop-down-line-middle {
   width: 40px;
   height: 10px;
 }
+#drop-down-menu:hover {
+  border: indigo solid thin;
+  cursor: pointer;
+}
 /*Landing page Tools*/
-.landing-page-wrapper{
+.landing-page-wrapper {
   display: flex;
   justify-content: flex-end;
   height: 100vh; 
@@ -68,7 +76,7 @@ main{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.landing-page-strip{
+.landing-page-strip {
   display: flex;
   height: 100%;
   margin-right: 6%;
@@ -77,7 +85,7 @@ main{
   font-family: 'Bodoni Moda', serif;
   letter-spacing: -2px;
 }
-.landing-page-strip_words{
+.landing-page-strip_words {
   background: rgba(134, 130, 134, .5);
   display: flex;
   flex-direction: column;
@@ -89,11 +97,11 @@ main{
   border-top: none;
   font-weight: bold;
 }
-#extensions{
+#extensions {
   color: rgb(165, 1, 165) 
 }
 /*Page Two Tools*/
-.page-two-wrapper{
+.page-two-wrapper {
   background-color: wheat;
   display: flex;
   justify-content: center;
@@ -102,7 +110,7 @@ main{
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.white-modal{
+.white-modal {
   background: white;
   display: flex;
   flex-direction: column;
@@ -111,12 +119,12 @@ main{
   box-shadow: hsla(200, 20%, 50%, .6) 0px 0px 40px 10px;
   border-radius: .5rem;
 }
-.white-modal_content-wrapper{
+.white-modal_content-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#white-modal_img{
+#white-modal_img {
   object-fit: contain;
   width: 50vw;
   height: 40vh;
@@ -129,10 +137,10 @@ main{
   font-size: 23px;
   text-align: left;
 }
-#white-modal_info > p{
+#white-modal_info > p {
   margin: 5px;
 }
-#white-modal_button{
+#white-modal_button {
   background-color: rgb(165, 1, 165);
   color: white;
   height: 50px;
@@ -143,12 +151,70 @@ main{
   border-radius: .2rem;
   font-size: 20px;
 }
-#white-modal_button:hover{
+#white-modal_button:hover {
   cursor: pointer;
 }
-#white-modal_button:focus{
+#white-modal_button:focus {
   outline: none;
 }
-#white-modal_button:active{
+#white-modal_button:active {
   background-color: ivory;
 }
+/* Dropdown menu opening tools*/
+#drop-down_open-x-shape {
+  margin-right: 8px;
+  padding: 10px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+#drop-down_open-x-shape:hover {
+  cursor: pointer;
+  border: indigo solid thin;
+}
+#diagnal-line-one {
+  background-color: indigo;
+  width: 40px;
+  height: 3px;
+  transform: rotate(45deg);
+}
+#diagnal-line-two {
+  background-color: indigo;
+  width: 40px;
+  height: 3px;
+  transform: rotate(90deg);
+}
+/*Dropdow module tools*/
+.drop-down_open-overlay {
+  background-color: rgba(75, 0, 130, .5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.drop-down_module {
+  display: flex;
+  align-items: center;
+  margin-top: 10vh;
+  height: 70vh;
+  width: 80vw;
+  border-left: white solid 5px;
+  transition: all 1.5s ease;
+}
+.drop-down_module ul {
+  list-style: none;
+  font-size: 13vw;
+  transform: translateX(150%);
+  transition: transform 1s ease;
+} 
+.drop-down_module ul li {
+  padding: 2.5vh;
+}
+li:hover {
+  cursor: pointer;
+  color: white;
+}
+
