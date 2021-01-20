@@ -21,6 +21,6 @@ Day Two
 [] make dropdown button function
     --> I am attempting to create an overlay field first. The
         navabar needs to remain on top so i set the z-index of
-        the navbar to 2. The overlay is a transparent purples block sitting on top of the main tag. The main tag display is none for now. I want the hamburger button to turn to an x, be white, and connect to the overlay via color match.
+        the navbar to 2. The overlay is a transparent purple block sitting on top of the main tag. The main tag display is none for now. I want the hamburger button to turn to an x, be white, and connect to the overlay via color match.
 [] make third page with fusion method.
 [] make link and form for the ibe button 
