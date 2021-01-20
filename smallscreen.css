@@ -27,6 +27,7 @@ main {
 /* Logo Tools*/
 #logo-text {
   margin: 10px;
+  margin-left: 22px;
   margin-bottom: 10px;
   letter-spacing: -2px;
   font-size: 6.5vw;
@@ -46,7 +47,7 @@ main {
 #drop-down-menu {
   display: flex;
   flex-direction: column;
-  margin-right: 8px;
+  margin-right: 10px;
   padding: 10px;
   justify-content: center;
   align-items: center;
@@ -128,8 +129,8 @@ main {
 }
 #white-modal_img {
   object-fit: contain;
-  width: 50vw;
-  height: 40vh;
+  width: 55vw;
+  height: 45vh;
 }
 #white-modal_info {
   width: 90%;
@@ -146,10 +147,10 @@ main {
 #white-modal_button {
   background-color: rgb(165, 1, 165);
   color: white;
-  height: 50px;
-  width: 30%;
+  height: 60px;
+  width: 40%;
   margin-top: 5vw;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   border: none;
   border-radius: .2rem;
   font-size: 20px;
@@ -225,8 +226,63 @@ main {
 .drop-down_module ul li {
   padding: 2vh;
 }
-li:hover {
+li a:hover {
   cursor: pointer;
   color: black;
 }
-
+li a:active {
+  font-size: 8vw;
+}
+/*Colors pages Link*/
+.color-page_wrapper {
+  display: flex;
+  flex-direction: column;
+  height:100vh; 
+  width: 100vw;
+  background-image: url("./assets/blond-full.jpg");
+  background-color: #cccccc;
+  background-blend-mode: color-burn;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.color-words_wrapper {
+  height: 90vh;
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#boxOne {
+  flex: 1;
+}
+#boxTwo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 60px;
+}
+.fun, .is, .color {
+  flex: 1;
+  margin-left: 20px;
+}
+.fun {
+  color: white; 
+}
+.is {
+  color: yellow;
+}
+.color {
+  color:gold;
+}
+.color-info_wrapper {
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
