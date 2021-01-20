@@ -261,7 +261,7 @@ li a:active {
   display: flex;
   flex-direction: column;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 3em;
 }
 .fun, .is, .color {
   flex: 1;
