@@ -3,7 +3,7 @@
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Bodoni Moda', serif;
+
 }
 body,html {
   width: 100vw;
@@ -11,6 +11,7 @@ body,html {
 }
 main {
   overflow: hidden;
+  font-family: 'Bodoni Moda', serif;
 }
 .navigation-bar {
   background: whitesmoke;
@@ -21,6 +22,7 @@ main {
   top: 0;
   width: 100%;
   overflow: hidden;
+  font-family: 'Bodoni Moda', serif;
 }
 /* Logo Tools*/
 #logo-text {
@@ -113,7 +115,7 @@ main {
   background: white;
   display: flex;
   flex-direction: column;
-  height: 80%;
+  height: 100%;
   width: 90%;
   box-shadow: hsla(200, 20%, 50%, .6) 0px 0px 40px 10px;
   border-radius: .5rem;
@@ -135,6 +137,7 @@ main {
   padding: 20px;
   font-size: 23px;
   text-align: left;
+  font-family: sans-serif;
 }
 #white-modal_info > p {
   margin: 5px;
@@ -196,7 +199,6 @@ main {
   overflow: hidden;
   transition: all 1s ease;
 }
-
 .drop-down_module {
   position: fixed;
   z-index: 1;
@@ -206,9 +208,7 @@ main {
   height: 60vh;
   min-height: 400px;
   width: 80vw;
-  border-left: white solid 5px;
-  transition: all 1s ease;
-
+  transition:transform 1s ease;
 }
 .drop-down_open-overlay > *:first-child { transform: translateX(150%); }
 .drop-down_open-overlay.open-active > *:first-child { transform: translateX(0); }
@@ -217,11 +217,12 @@ main {
   list-style: none;
   font-size: 11vw;
   font-weight: 600;
-  color: white;
+  color: rgba(0, 0, 0, 0);
+  letter-spacing: 5px;
+  font-family: 'Bodoni Moda', serif;
 } 
-
 .drop-down_module ul li {
-  padding: 2.5vh;
+  padding: 2vh;
 }
 li:hover {
   cursor: pointer;
