@@ -3,7 +3,6 @@
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 body,html {
   width: 100vw;
@@ -78,7 +77,6 @@ main {
   width: 100vw;
   background-image: url("./assets/light_pose.jpg");
   background-color: #cccccc;
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -252,7 +250,6 @@ li a:active {
   background-color: #cccccc;
   background-blend-mode: color-burn;
   background-position: center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }

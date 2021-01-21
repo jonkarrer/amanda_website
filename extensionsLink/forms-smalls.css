@@ -194,6 +194,11 @@ li a:active {
   margin: 40px;
   line-height: 35px;
 }
+.info p3 {
+  color: rgb(165, 1, 165);
+  font-weight: bold;
+  font-size: 27px;
+}
 h1 {
   margin-right: 15px;
 }
