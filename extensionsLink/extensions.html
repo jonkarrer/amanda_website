@@ -9,7 +9,34 @@
   <title>Extensions Link Page</title>
 </head>
 <body>
+  <div class="navigation-bar">
+    <div id="logo-text">
+      <span id="hair-text">Hair</span>
+      <span id="by-text"> by</span>
+      <span id="name-text"> Amanda</span>
+    </div>
+    <div id="drop-down-menu" onclick="activate()">
+      <div id="drop-down-lines"></div>
+        <div id="drop-down-line-middle"></div>
+        <div id="drop-down-lines"></div>
+    </div>
+    <div id="drop-down_open-x-shape" onclick="deActivate()">
+      <div id="diagnal-line-one">
+        <div id="diagnal-line-two"></div>
+      </div>
+    </div>
+  </div>
   <main>
+    <div class="drop-down_open-overlay">
+      <div class="drop-down_module">
+        <ul id="drop-down-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a>Color</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>Prices</a></li>
+        </ul>
+      </div>
+    </div>
     <div class="beads-page_wrapper">
       <div class="info-modal">
         <div class="extension-title">
@@ -37,6 +64,6 @@
       </div>
     </div>
 </main>
-  <script src="form.js"></script>
+  <script src="/dropdown-menu.js"></script>
 </body>
 </html>
