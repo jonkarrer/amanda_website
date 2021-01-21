@@ -34,6 +34,9 @@ main{
   letter-spacing: -2px;
   font-size: 6.5vw;
 }
+#logo-text:hover {
+  cursor: pointer;
+}
 #by-text {
   color: rgb(165, 1, 165);
   font-weight: 900;
@@ -184,7 +187,7 @@ li a:active {
 .spacebar {
   height: 50vh;
 }
- .info {
+.info {
   flex: 1;
   text-align: left;
   font-size: 23px;
