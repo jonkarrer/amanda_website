@@ -22,3 +22,6 @@ const deActivate = () => {
     dropdownOverlay.classList.toggle("open")
   }, 600);
 }
+const goHome = () => {
+  window.location.href = "../index.html";
+}
