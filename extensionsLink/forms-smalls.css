@@ -150,9 +150,9 @@ li a:active {
   z-index: 1;
 }
 .extension-title {
-  width: 68vw;
-  min-width: 250px;
-  font-size: 4vw;
+  width: 70vw;
+  min-width: 300px;
+  font-size: 4.6vw;
   letter-spacing: 2px;
   background-color: rgba(134, 130, 134, .85);
   border: rgb(165, 1, 165) solid thin;
@@ -209,9 +209,9 @@ h1 {
   z-index: 1;
 }
 .extension-title-2 {
-  width: 68vw;
+  width: 70vw;
   min-width: 250px;
-  font-size: 4vw;
+  font-size: 4.6vw;
   letter-spacing: 2px;
   background-color: rgba(134, 130, 134, .85);
   border: rgb(165, 1, 165) solid thin;
