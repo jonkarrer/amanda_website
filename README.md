@@ -23,9 +23,14 @@ Day Two
         navabar needs to remain on top so i set the z-index of
         the navbar to 2. The overlay is a transparent purple block sitting on top of the main tag. The drop down menu 
         slides into the page with a css transition and some javascript. I learned that qurery selector can be uses with classList.toggle to turn on classes and not turn off other classes. the first child css method is a good way to add multiple calsses to one place.
-[x] make color page link work
-    --> I used the template of the landing page to build this one. I used a 
-        different flexbox on the home page to fit the color color color text.
-        The white modal is the same as the home page, same css name. Be careful
-        when editing one and not the other. Now i need to push it off the screen and slide it back in when the colors link is clicked.
-[] make link and form for the ibe button 
+[x] make extension page link work
+    [x] build extensions page in seperate html
+    [x] make seperate css
+    [x] build page
+        [x] white modal build
+        [x] image modal wrapped inside, set to absolute positioning
+        [x] title strip will be the same
+        [x] repeat for the fusion method, but flip positioning
+    [x] set extension button to href="extensions.html"
+    [x] switch the extensions button to a home link to go back to index
+[x] make learn more button link to extension page
