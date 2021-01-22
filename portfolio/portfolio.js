@@ -16,7 +16,7 @@
   function injectImages() {
     for(let i = 0; i < imageArr.length; i += 2) {
       let row = document.createElement("div");
-      row.className = "row";
+      row.id = "row";
       let image = document.createElement("div");
       image.style.backgroundImage = `url(${imageArr[i]})`
       let imageTwo = document.createElement("div");

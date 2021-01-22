@@ -153,7 +153,7 @@ main {
   background-color: rgb(165, 1, 165);
   color: white;
   height: 60px;
-  width: 40%;
+  width: 45%;
   margin-top: 5vw;
   margin-bottom: 30px;
   display: flex;
@@ -300,5 +300,5 @@ li a:active {
   object-fit: contain;
   width: 55vw;
   height: 45vh;
-  padding-top: 30px;
+  padding-top: 20px;
 }
