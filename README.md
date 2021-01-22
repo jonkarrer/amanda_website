@@ -53,5 +53,6 @@ Day Two
 [] make mock up for color pages
 [] create a maintanence page
 [] create a testimonials page
+[]
 
 
