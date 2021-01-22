@@ -13,7 +13,7 @@
       "../assets/hairj1.jpg", "../assets/hairj2.jpg"
     ]
   
-  const injectImages = () => {
+  function injectImages() {
     for(let i = 0; i < imageArr.length; i += 2) {
       let row = document.createElement("div");
       row.className = "row";
