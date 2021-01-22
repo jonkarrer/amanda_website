@@ -296,12 +296,9 @@ li a:active {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.white-modal-image {
-  border-radius: 50%;
-}
 #white-modal_img-2 {
   object-fit: contain;
   width: 55vw;
   height: 45vh;
-  border-radius: 50%;
+  padding-top: 30px;
 }
