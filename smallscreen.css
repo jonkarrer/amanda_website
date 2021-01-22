@@ -11,6 +11,8 @@ body,html {
 a {
   text-decoration: none;
   color: white;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold;
 }
 main {
   overflow: hidden;
@@ -66,7 +68,8 @@ main {
   height: 10px;
 }
 #drop-down-menu:hover {
-  border: indigo solid thin;
+  border-left: indigo solid thin;
+  border-right: indigo solid thin;
   cursor: pointer;
 }
 /*Landing page Tools*/
