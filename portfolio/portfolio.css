@@ -16,6 +16,7 @@ html {
 }
 #main {
   width: 100vw;
+  background-color: red;
 }
 #portfolio-wrapper {
   display: flex;
