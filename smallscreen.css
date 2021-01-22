@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600;700&display=swap');
 * {
   margin: 0;
   line-height: 1.2;
@@ -7,6 +8,7 @@
 body,html {
   width: 100vw;
   height: 100vh;
+  background-color: wheat;
 }
 a {
   text-decoration: none;
@@ -89,8 +91,7 @@ main {
   height: 100%;
   margin-right: 6%;
   color: white;
-  font-family: 'Bodoni Moda', serif;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 }
 .landing-page-strip_words {
   background: rgba(134, 130, 134, .5);
@@ -102,8 +103,9 @@ main {
   padding: 7px;
   border: rgb(165, 1, 165) solid thin;
   border-top: none;
+  font-family: 'Bodoni Moda', serif;
   font-weight: bold;
-  font-size: 10vw;
+  font-size: 1.1em;
 }
 #extensions {
   color: rgb(165, 1, 165) 
@@ -142,7 +144,7 @@ main {
   margin-left: 70px;
   margin-right: 70px;
   padding: 20px;
-  font-size: 23px;
+  font-size: 1.4em;
   text-align: left;
   font-family: sans-serif;
 }
@@ -300,5 +302,5 @@ li a:active {
   object-fit: contain;
   width: 55vw;
   height: 45vh;
-  padding-top: 20px;
+  padding-top: 10px;
 }

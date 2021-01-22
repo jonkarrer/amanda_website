@@ -1,4 +1,5 @@
 @import '../smallscreen.css';
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600;700&display=swap');
 *{
   margin: 0;
   line-height: 1.2;
@@ -44,6 +45,8 @@ main{
   box-shadow: hsla(200, 20%, 50%, .6) 0px 0px 40px 10px;
   height: 55vh;
   width: 60vw;
+  min-width: 200px;
+  min-height: 300px;
   border-radius: 2rem;
   border-top-left-radius: 0;
   margin-top: -8%;
@@ -56,19 +59,19 @@ main{
   z-index: 1;
 }
 .extension-title {
-  width: 78vw;
+  width: 80vw;
   min-width: 300px;
-  font-size: 4.2vw;
+  font-size: 1.1em;
   letter-spacing: 2px;
   background-color: rgba(134, 130, 134, .85);
   border: rgb(165, 1, 165) solid thin;
   border-right: none;
   color: white;
   position: absolute;
-  top: 13%;
-  margin-left: 14%;
+  margin-top: 30%;
+  margin-left: 13%;
   z-index: 2;
-  padding-left: 20px;
+  padding-left: 12px;
   font-family: 'Bodoni Moda', serif;
   font-weight: bold;
   text-align: right;
@@ -93,14 +96,14 @@ main{
 .info {
   flex: 1;
   text-align: left;
-  font-size: 23px;
+  font-size: 1.4em;
   margin: 40px;
   line-height: 35px;
 }
 .info p3 {
   color: rgb(165, 1, 165);
   font-weight: bold;
-  font-size: 27px;
+  font-size: 1.1em;
 }
 h1 {
   margin-right: 15px;
@@ -123,7 +126,7 @@ h1 {
 .extension-title-2 {
   width: 70vw;
   min-width: 250px;
-  font-size: 4.6vw;
+  font-size: 1.1em;
   letter-spacing: 2px;
   background-color: rgba(134, 130, 134, .85);
   border: rgb(165, 1, 165) solid thin;

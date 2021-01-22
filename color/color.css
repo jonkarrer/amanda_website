@@ -1,1 +1,11 @@
 @import '../smallscreen.css';
+main {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.title-block {
+  height: 300px;
+  width: 100%;
+  background-color: teal;
+}
