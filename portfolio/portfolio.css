@@ -15,9 +15,12 @@ html {
 main {
   height: auto;
   width: 100vw;
+}
+#portfolio-wrapper {
   display: flex;
   flex-direction: column;
-  margin-top: 7vh;
+  height: auto;
+  margin-top: 5vh;
 }
 .row {
   flex: 1;

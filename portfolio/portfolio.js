@@ -1,5 +1,5 @@
 
-    const mainElement = document.querySelector("main");
+    const mainElement = document.getElementById("portfolio-wrapper");
     const imageArr = [
       "../assets/haira1.jpg", "../assets/haira2.jpg",
       "../assets/hairb1.jpg", "../assets/hairb2.jpg",
