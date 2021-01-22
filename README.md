@@ -1,5 +1,5 @@
 # amanda_website
-Day One
+Day One - 1-7-2021
 Mobile Formatting
 [x] create general format.
     --> Giant flexbox, direction in columns.
@@ -34,3 +34,24 @@ Day Two
     [x] set extension button to href="extensions.html"
     [x] switch the extensions button to a home link to go back to index
 [x] make learn more button link to extension page
+[x] create portfolio page
+    [x] new html, copy over navagation bar and import css
+    [x] want a 2x2 flex grid. main is the column and divs 
+        are rows with 2 divs inserted who have background-image
+        properties set.
+    [x] organize images in file with "hair(gridtag)" ie 
+        haira1.jpg haira2.jpg.
+    [x] make a js function that inserts images into grid.
+        [x] make array of all images and then use a for loop
+            with += 2 to loop over array. arr[i] and arr[i+1]
+            will inject into a prebuilt dom. 
+    [x] make all dropdown links function
+[] make adjustments to page style
+    [] invisible bead extensions is not the right size. Bigger
+    [] images on safari doesnt work. I think class declaring is
+        not compatible. Check es6.
+[] make mock up for color pages
+[] create a maintanence page
+[] create a testimonials page
+
+
