@@ -1,7 +1,6 @@
-class ImageDatabase {
-  constructor() {
-    this.mainElement = document.querySelector("main");
-    this.imageArr = [
+
+    const mainElement = document.querySelector("main");
+    const imageArr = [
       "../assets/haira1.jpg", "../assets/haira2.jpg",
       "../assets/hairb1.jpg", "../assets/hairb2.jpg",
       "../assets/hairc1.jpg", "../assets/hairc2.jpg",
@@ -13,21 +12,18 @@ class ImageDatabase {
       "../assets/hairi1.jpg", "../assets/hairi2.jpg",
       "../assets/hairj1.jpg", "../assets/hairj2.jpg"
     ]
-  }
-  injectImages() {
-    for(let i = 0; i < this.imageArr.length; i += 2) {
+  
+  const injectImages = () => {
+    for(let i = 0; i < imageArr.length; i += 2) {
       let row = document.createElement("div");
       row.className = "row";
       let image = document.createElement("div");
-      image.style.backgroundImage = `url(${this.imageArr[i]})`
+      image.style.backgroundImage = `url(${imageArr[i]})`
       let imageTwo = document.createElement("div");
-      imageTwo.style.backgroundImage = `url(${this.imageArr[i+1]})`
+      imageTwo.style.backgroundImage = `url(${imageArr[i+1]})`
       row.appendChild(image);
       row.appendChild(imageTwo);
-      this.mainElement.appendChild(row);
+      mainElement.appendChild(row);
     }
   }
-
-}
-const runDatabase = new ImageDatabase;
-runDatabase.injectImages();
+injectImages();

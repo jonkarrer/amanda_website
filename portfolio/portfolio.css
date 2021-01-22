@@ -23,7 +23,7 @@ main {
   display: flex;
   height: 48vh;
 }
-.row > div {
+.row div {
   flex: 1;
   background-position: center;
   background-size: cover;
