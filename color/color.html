@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet">
+  <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="color.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <div class="navigation-bar">
+    <div id="logo-text" onclick="goHome()">
+      <span id="hair-text">Hair</span>
+      <span id="by-text"> by</span>
+      <span id="name-text"> Amanda</span>
+    </div>
+    <div id="drop-down-menu" onclick="activate()">
+      <div id="drop-down-lines"></div>
+      <div id="drop-down-line-middle"></div>
+      <div id="drop-down-lines"></div>
+    </div>
+    <div id="drop-down_open-x-shape" onclick="deActivate()">
+      <div id="diagnal-line-one">
+        <div id="diagnal-line-two"></div>
+      </div>
+    </div>
+  </div>
+  <div id="main">
+    <div class="drop-down_open-overlay">
+      <div class="drop-down_module">
+        <ul id="drop-down-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../extensionsLink/extensions.html">Extensions</a></li>
+          <li><a>Color</a></li>
+          <li><a>Services</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="color.js"></script>
+  <script src="../dropdown-menu.js"></script>
+</body>
+</html>

@@ -24,6 +24,6 @@
       row.appendChild(image);
       row.appendChild(imageTwo);
       mainElement.appendChild(row);
-    }
-  }
+    };
+  };
 injectImages();
