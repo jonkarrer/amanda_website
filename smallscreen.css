@@ -105,7 +105,7 @@ main {
   border-top: none;
   font-family: 'Bodoni Moda', serif;
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 19px;
 }
 #extensions {
   color: rgb(165, 1, 165) 
@@ -300,7 +300,8 @@ li a:active {
 }
 #white-modal_img-2 {
   object-fit: contain;
-  width: 55vw;
-  height: 45vh;
+  width: 60vw;
+  height: 40vh;
   padding-top: 10px;
+  border: red solid thin;
 }

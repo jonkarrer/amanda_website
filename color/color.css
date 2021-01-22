@@ -4,8 +4,11 @@ main {
   flex-direction: column;
   align-self: center;
 }
+.margin-block {
+  height: 50px;
+}
 .title-block {
-  height: 300px;
+  height: 200px;
   width: 100%;
   background-color: teal;
 }
