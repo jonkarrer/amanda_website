@@ -41,7 +41,7 @@ h1{
   font-size: 2.2em;
   font-weight: 900;
   transition: transform 0.4s;
-  z-index: -6;
+  pointer-events: none;
 }
 .hidden-box {
   height: 280px;
