@@ -19,7 +19,7 @@ main {
   align-items: center;
   row-gap: 40px;
 }
-#id-for-js  {
+#colorCards  {
   display: flex;
   align-items: flex-end;
   height: 280px;
