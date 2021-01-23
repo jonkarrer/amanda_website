@@ -33,6 +33,7 @@ main {
   transition: all 0.8s;
   transform-style: preserve-3d;
   position: absolute;
+  z-index: 1;
 }
 .options_wrapper div h1{
   margin: 20px;
