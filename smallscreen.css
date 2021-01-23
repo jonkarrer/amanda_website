@@ -228,7 +228,8 @@ main {
 .drop-down_open-overlay > *:first-child { transform: translateX(150%); }
 .drop-down_open-overlay.open-active > *:first-child { transform: translateX(0); }
 
-.drop-down_module ul {
+#drop-down-links {
+  z-index: 8;
   list-style: none;
   font-size: 10vw;
   font-weight: 600;
@@ -238,6 +239,7 @@ main {
 } 
 .drop-down_module ul li {
   padding: 2vh;
+  z-index: 8;
 }
 li a:hover {
   cursor: pointer;

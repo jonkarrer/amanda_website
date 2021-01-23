@@ -11,6 +11,7 @@ const activate = () => {
   dropDownModule.classList.toggle("open");
   dropDownLinks.style.color = "white";
   dropDownLinks.style.borderLeft= "white solid 5px";
+  dropDownLinks.style.zIndex = "8";
 }
 const deActivate = () => {
   hamburgerIcon.style.display = "flex";
