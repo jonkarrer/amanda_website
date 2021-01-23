@@ -18,7 +18,6 @@ const deActivate = () => {
   dropDownModule.classList.toggle("open");
   dropdownOverlay.classList.toggle("open-active")
   setTimeout(() => {
-    
     dropdownOverlay.classList.toggle("open")
   }, 600);
 }

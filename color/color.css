@@ -5,10 +5,78 @@ main {
   align-self: center;
 }
 .margin-block {
-  height: 50px;
+  height: 6vh;
 }
 .title-block {
   height: 200px;
   width: 100%;
   background-color: teal;
+  margin-bottom: 40px;
+}
+.options_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+}
+#id-for-js  {
+  display: flex;
+  align-items: flex-end;
+  height: 280px;
+  width: 90%;
+  justify-content: flex-start;
+  border: rgb(165, 1, 165) solid thin;
+  perspective: 1000px;
+  transition: all 0.8s;
+  transform-style: preserve-3d;
+  position: absolute;
+}
+
+.options_wrapper div h1{
+  margin: 20px;
+  color: white;
+  font-size: 2.2em;
+  font-weight: 900;
+  transition: transform 0.4s;
+}
+.hidden-box {
+  height: 280px;
+  width: 90%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: wheat;
+  transition: all 2s;
+  flex-direction: column;
+}
+.hidden-box p{
+  margin: 20px;
+  font-size: 1.2em;
+  padding-top: 40px;
+  font-family: sans-serif;
+}
+.hidden-box p2 {
+  margin-right: 40px;
+  font-size: 1.3em;
+}
+.highlights-lowlights {
+}
+.all-over-color {
+
+}
+.color-correction {
+
+}
+.balayage {
+
+}
+.ombre {
+
+}
+.tint {
+
+}
+.toner {
+
 }

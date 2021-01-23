@@ -22,7 +22,7 @@ main {
 }
 .navigation-bar {
   background: whitesmoke;
-  z-index: 2;
+  z-index: 10;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -204,7 +204,7 @@ main {
 /*Dropdow module tools*/
 .drop-down_open-overlay.open {
   position: fixed;
-  z-index: 1;
+  z-index: 8;
   background-color: rgba(75, 0, 130, .8);
   display: flex;
   justify-content: center;
