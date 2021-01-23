@@ -10,7 +10,8 @@
       "../assets/hairg1.jpg", "../assets/hairg2.jpg",
       "../assets/hairh1.jpg", "../assets/hairh2.jpg",
       "../assets/hairi1.jpg", "../assets/hairi2.jpg",
-      "../assets/hairj1.jpg", "../assets/hairj2.jpg"
+      "../assets/hairj1.jpg", "../assets/hairj2.jpg",
+      "../assets/hairk1.jpg", "../assets/hairk2.jpg"
     ]
   
   function injectImages() {

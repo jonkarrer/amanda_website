@@ -35,3 +35,6 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.margin-block {
+  height: 50px;
+}
