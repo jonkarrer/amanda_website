@@ -10,8 +10,12 @@ main {
 .title-block {
   height: 200px;
   width: 100%;
-  background-color: teal;
+  background-color: rgb(165, 1, 165);
   margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  text-align: center;
 }
 .options_wrapper {
   display: flex;
@@ -31,7 +35,6 @@ main {
   transform-style: preserve-3d;
   position: absolute;
 }
-
 .options_wrapper div h1{
   margin: 20px;
   color: white;
