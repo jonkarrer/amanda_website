@@ -216,10 +216,10 @@ main {
 }
 .drop-down_module {
   position: fixed;
-  z-index: 1;
+  z-index: 8;
   display: flex;
   align-items: center;
-  margin-top: 10vh;
+  margin-top: 2vh;
   height: 60vh;
   min-height: 400px;
   width: 80vw;
