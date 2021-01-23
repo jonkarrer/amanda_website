@@ -91,21 +91,22 @@ main {
   height: 100%;
   margin-right: 6%;
   color: white;
-  letter-spacing: -1px;
+ 
 }
 .landing-page-strip_words {
   background: rgba(134, 130, 134, .5);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 70vh;
+  height: 72vh;
   width: 100%;
   padding: 7px;
   border: rgb(165, 1, 165) solid thin;
   border-top: none;
   font-family: 'Bodoni Moda', serif;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 25px;
+  
 }
 #extensions {
   color: rgb(165, 1, 165) 
@@ -162,7 +163,7 @@ main {
   align-items: center;
   justify-content: center;
   border-radius: .2rem;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
   text-align: center;
   text-decoration: none;
@@ -275,17 +276,17 @@ li a:active {
   font-weight: bold;
   font-size: 3em;
 }
-.fun, .is, .color {
+.color-top, .color-mid, .color-bottom {
   flex: 1;
   margin-left: 20px;
 }
-.fun {
+.color-top {
   color: white; 
 }
-.is {
+.color-mid {
   color: yellow;
 }
-.color {
+.color-bottom {
   color:gold;
 }
 .color-info_wrapper {
@@ -303,5 +304,4 @@ li a:active {
   width: 60vw;
   height: 40vh;
   padding-top: 10px;
-  border: red solid thin;
 }
