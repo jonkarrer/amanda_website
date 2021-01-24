@@ -44,54 +44,83 @@ main{
 .margin-block {
   height: 40px;
 }
-.image-modal {
-  box-shadow: hsla(200, 20%, 50%, .6) 0px 0px 20px 10px;
+/*Page Specific Tools*/
+h1 {
+  color: white;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold;
+  font-size: 2.3em;
+  letter-spacing: 2px;
+  margin-right: 15px;
+}
+p3 {
+  color: rgb(165, 1, 165);
+  font-weight: bold;
+  font-size: 1em;
+}
+.content-wrapper-1, .content-wrapper-2 {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 95vw;
+  height: 100%;
+  margin-top: 15vh;
+  margin-bottom: 30px;
+  box-shadow: hsla(200, 20%, 50%, .6) 0px 0px 20px 0px;
+  border-radius: 2rem;
+  font-family: sans-serif;
+}
+.content-wrapper-1 {
+  left: 5%;
+}
+.image-modal, .image-modal-2 {
+  position: absolute;
+  margin-top: -10%;
   height: 55vh;
   width: 60vw;
   min-width: 200px;
   min-height: 300px;
+  box-shadow: hsla(200, 20%, 50%, .6) 0px 0px 20px 10px;
   border-radius: 2rem;
-  border-top-left-radius: 0;
-  margin-top: -8%;
-  margin-left: -4%;
-  position: absolute;
-  background-image: url("ibe-example.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
 }
-.extension-title {
-  width: 80vw;
-  min-width: 300px;
-  font-size: 1.1em;
-  letter-spacing: 2px;
+.image-modal {
+  border-top-left-radius: 0;
+  left: -5%;
+  background-image: url("ibe-example.jpg");
+}
+.image-modal-2 {
+  border-top-right-radius: 0;
+  right: -5%;
+  background-image: url("fusion-hair.jpg");
+}
+.extension-title, .extension-title-2 {
   background-color: rgba(134, 130, 134, .85);
-  border: rgb(165, 1, 165) solid thin;
-  border-right: none;
-  color: white;
+  display: flex;
+  align-items: center;
   position: absolute;
+  height: 21vh;
+  width: 80vw;
+  min-width: 250px;
   margin-top: 30%;
-  margin-left: 13%;
+  border: rgb(165, 1, 165) solid thin;
   z-index: 2;
+}
+.extension-title {
+  border-right: none;
+  right: 0;
   padding-left: 12px;
-  font-family: 'Bodoni Moda', serif;
-  font-weight: bold;
   text-align: right;
 }
-.info-modal {
-  background: white;
-  box-shadow: hsla(200, 20%, 50%, .6) 0px 0px 20px 0px;
-  width: 95vw;
-  height: 100%;
-  position: relative;
-  left: 5%;
-  margin-top: 15vh;
-  margin-bottom: 30px;
-  border-radius: 2rem;
-  display: flex;
-  flex-direction: column;
-  font-family: sans-serif;
+.extension-title-2 {
+  border-left: none;
+  left: 0;
+  padding-left: 15px;
+  text-align: left;
 }
 .spacebar {
   height: 50vh;
@@ -103,66 +132,13 @@ main{
   margin: 40px;
   line-height: 35px;
 }
-.info p3 {
-  color: rgb(165, 1, 165);
-  font-weight: bold;
-  font-size: 1.1em;
-}
-h1 {
-  margin-right: 15px;
-}
-.image-modal-2 {
-  box-shadow: hsla(200, 20%, 50%, .6) 0px 0px 20px 10px;
-  height: 55vh;
-  width: 60vw;
-  border-radius: 2rem;
-  border-top-right-radius: 0;
-  margin-top: -10%;
-  margin-left: 41%;
-  position: absolute;
-  background-image: url("fusion-hair.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-}
-.extension-title-2 {
-  width: 70vw;
-  min-width: 250px;
-  font-size: 1.1em;
-  letter-spacing: 2px;
-  background-color: rgba(134, 130, 134, .85);
-  border: rgb(165, 1, 165) solid thin;
-  border-left: none;
-  color: white;
-  position: absolute;
-  top: 13%;
-  z-index: 2;
-  padding-left: 20px;
-  font-family: 'Bodoni Moda', serif;
-  font-weight: bold;
-  text-align: left;
-}
-.info-modal-2 {
-  background: white;
-  box-shadow: hsla(200, 20%, 50%, .6) 0px 0px 20px 0px;
-  width: 95vw;
-  height: 100%;
-  position: relative;
-  margin-top: 15vh;
-  margin-bottom: 30px;
-  border-radius: 2rem;
-  display: flex;
-  flex-direction: column;
-  font-family: sans-serif;
-}
 .start-consultation {
-  width: 100%;
-  height: 11.5vh;
+  background: rgb(165, 1, 165);
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(165, 1, 165);
+  width: 100%;
+  height: 11.5vh;
   font-family: sans-serif;
   font-size: 30px;
 }
