@@ -50,9 +50,6 @@ Day Two
     [] invisible bead extensions is not the right size. Bigger
     [] images on safari doesnt work. I think class declaring is
         not compatible. Check es6.
-[] make mock up for color pages
-[] create a maintanence page
-[] create a testimonials page
-[]
+[x] make mock up for color pages
 
 

@@ -298,11 +298,39 @@ li a:active {
   height: 100%;
   width: 100%;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
 }
 #white-modal_img-2 {
   object-fit: contain;
   width: 60vw;
   height: 40vh;
   padding-top: 10px;
+}
+/*Testomonial Tools*/
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.review-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border: indigo solid thin;
+  margin: 30px;
+  margin-bottom: 40px;
+  border-radius: 1em;
+}
+.review-1 p1 {
+  margin: 40px;
+  margin-top: 20px;
+}
+.review-1 img {
+  padding: 13px;
+  border-radius: 50%;
+  background: wheat;
+  margin-top: -50px;
 }
