@@ -1,0 +1,25 @@
+@import '../smallscreen.css';
+.quote-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100vh; 
+  width: 100vw;
+  background-image: url("../assets/quote-photo.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.quote {
+  width: 70%;
+  margin-bottom: 15%;
+  margin-right: 20px;
+}
+.quote p {
+  font-size: 23px;
+  color: white;
+  font-weight: 900;
+  font-family: sans-serif;
+  text-align: right;
+}
