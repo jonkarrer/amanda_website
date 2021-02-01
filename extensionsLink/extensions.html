@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
   <link rel="stylesheet" media="screen and (max-width: 600px)" href="forms-smalls.css">
   <title>Extensions Link Page</title>
 </head>
+
 <body>
   <div class="navigation-bar">
     <div id="logo-text" onclick="goHome()">
@@ -50,10 +52,40 @@
         <div>S</div>
       </div>
     </section>
-    <section class="invisible-extensions">
-      
-    </section>
+    
+    <div class="ibe-page-wrapper">
+      <div class="white-modal">
+        <div class="white-modal_content-wrapper">
+          <div id="white-modal-logo">
+             <!-- Flickity HTML init -->
+            <div 
+            class="gallery js-flickity"data-flickity-options='{ "wrapAround": true }'
+            >
+              <div class="gallery-cell" id="image-1"></div>
+              <div class="gallery-cell" id="image-2"></div>
+              <div class="gallery-cell" id="image-3"></div>
+              <div class="gallery-cell" id="image-4"></div>
+              <div class="gallery-cell" id="image-5"></div>
+            </div>
+          </div>
+          <div id="white-modal_info">
+            I.B.E. is the safest method for weft extensions on the market.
+            Style your hair anyway you prefer, including having a hidden ponytail.
+            The key to this method is having both a tension and irritation free
+            application. I.B.E. consists of applying beads to your section then applying
+            hand tied wefts above and below to create a completely seamless application.
+            You can add volume, length, or both to your hair and almost everyone is a candidate.
+            I.B.E. does require maintenance of 7-12 weeks depending on the person.
+            We do not "tighten" or "move up" the wefts as most methods do, but rather reinstall
+            them fresh. I suggest clients repurchasing individual wefts after a few months/reinstalls,
+            this will help from needing to buy a entire new set of hair.
+          </div>
+          <a href="extensionsLink/extensions.html" id="white-modal_button">Visit I.B.E</a>
+        </div>
+      </div>
+    </div>
   </main>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script src="../dropdown-menu.js"></script>
 </body>
 </html>
