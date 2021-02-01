@@ -8,14 +8,14 @@ main {
   height: 6vh;
 }
 .title-block {
-  height: 200px;
+  height: 150px;
   width: 100%;
   background-color: rgb(165, 1, 165);
   margin-bottom: 40px;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 1.5em;
-  text-align: center;
 }
 .options_wrapper {
   display: flex;
