@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
-  <link rel="stylesheet" media="screen and (max-width: 600px)" href="forms-smalls.css">
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="extension.css">
   <title>Extensions Link Page</title>
 </head>
 
@@ -116,24 +116,29 @@
               <option value="Short">Above shoulders</option>
             </select></br>
             <label for="extension">Have you had extensions before?</label></br>
+            <div>
             <input type="checkbox" id="extension" name="extension"checked>
             <label for="extensions">YES</label>
             <input type="checkbox" id="extension" name="extension">
             <label for="extensions">NO</label></br>
+          </div></br>
+          
             <label for="extension">I am interested in adding...</label></br>
+            <div>
             <input type="checkbox" id="extension" name="extension"checked>
-            <label for="volume">Volume (usually runs at $900+)</label><br/>
+            <label for="volume">Volume (usually runs at $900+)</label></br></br>
             <input type="checkbox" id="extension" name="extension">
             <label for="extensions">Length (usually runs at $1500+)</label></br>
+          </div></br>
             <label for="phone">
               If you would like to move foward with the consultation, 
               put ypur phone number below.
-            </label></form></br>
-            <input type="text" name="phone" id="phone" placeholder="#225-555-555">
-            <h1>I will either email you back or text you ASAP. Thanks!</h1>
-           
+            </label></br>
+            <input type="text" name="phone" id="phone" placeholder="#225-555-555"></br>
 
+            <button type="submit">Submit</button></form></br>
           </form>
+          <p id="form-closing">I will either email you back or text you ASAP. Thanks You!</p>
         </div>
         
         

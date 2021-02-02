@@ -13,6 +13,42 @@ a{
 html{
   background-color: wheat;
 }
+form {
+  width: 80%;
+  display: grid;
+  margin: 20px;
+  font-size: 1.3rem;
+}
+form input {
+  padding: 10px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+form label {
+  font-size: 1.3rem;
+  margin: 5px;
+}
+form select {
+  padding: 10px;
+  font-size: 1.3rem;
+}
+form button {
+  background-color: rgb(165, 1, 165);
+  color: white;
+  height: 60px;
+  margin-top: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .2rem;
+  font-size: 25px;
+  font-weight: 700;
+}
+#form-closing {
+  font-size: 1.5rem;
+  width: 80%;
+  padding-bottom: 20px;
+}
 main{
   display: flex;
   flex-direction: column;
