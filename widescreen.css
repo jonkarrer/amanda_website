@@ -28,79 +28,8 @@ main {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 50px;
+  height: 70px;
   overflow: hidden;
-}
-/* Dropdown menu opening tools*/
-#drop-down_open-x-shape {
-  margin-right: 8px;
-  padding: 10px;
-  display: none;
-  justify-content: center;
-  align-items: center;
-}
-#drop-down_open-x-shape:hover {
-  cursor: pointer;
-  border: indigo solid thin;
-}
-#diagnal-line-one {
-  background-color: rgb(165, 1, 165);
-  width: 40px;
-  height: 3px;
-  transform: rotate(45deg);
-}
-#diagnal-line-two {
-  background-color: rgb(165, 1, 165);
-  width: 40px;
-  height: 3px;
-  transform: rotate(90deg);
-}
-/*Dropdow module tools*/
-.drop-down_open-overlay.open {
-  position: fixed;
-  z-index: 8;
-  background-color: rgba(75, 0, 130, .8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-  transition: all 1s ease;
-}
-.drop-down_module {
-  position: fixed;
-  z-index: 8;
-  display: flex;
-  align-items: center;
-  margin-top: 2vh;
-  height: 60vh;
-  min-height: 400px;
-  width: 80vw;
-  transition:transform 1s ease;
-}
-.drop-down_open-overlay > *:first-child { transform: translateX(150%); }
-.drop-down_open-overlay.open-active > *:first-child { transform: translateX(0); }
-
-#drop-down-links {
-  z-index: 8;
-  list-style: none;
-  font-size: 10vw;
-  font-weight: 600;
-  color: rgba(0, 0, 0, 0);
-  letter-spacing: 5px;
-  font-family: 'Bodoni Moda', serif;
-} 
-.drop-down_module ul li {
-  padding: 2vh;
-  z-index: 8;
-}
-li a:hover {
-  cursor: pointer;
-  color: black;
-}
-li a:active {
-  font-size: 8vw;
 }
 /* Logo Tools*/
 #logo-text {
@@ -108,42 +37,18 @@ li a:active {
   margin-left: 22px;
   margin-bottom: 10px;
   letter-spacing: -2px;
-  font-size: 6.5vw;
+  font-size: 2.7rem;
 }
 #by-text {
   color: rgb(165, 1, 165);
   font-weight: 900;
-  font-size: 7vw;
+  font-size: 2.8rem;
 }
 #hair-text {
   letter-spacing: -3px;
 }
 #name-text {
   font-weight: 600;
-}
-/*Drop Down Tools*/
-#drop-down-menu {
-  display: flex;
-  flex-direction: column;
-  margin-right: 10px;
-  padding: 10px;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-#drop-down-lines {
-  background-color: rgb(165, 1, 165);
-  width: 40px;
-  height: 3px;
-}
-#drop-down-line-middle {
-  width: 40px;
-  height: 10px;
-}
-#drop-down-menu:hover {
-  border-left: indigo solid thin;
-  border-right: indigo solid thin;
-  cursor: pointer;
 }
 /*Landing page Tools*/
 .landing-page-wrapper {
@@ -156,11 +61,13 @@ li a:active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  margin-top: -20px;
 }
 .landing-page-strip {
   display: flex;
   height: 100%;
-  margin-right: 6%;
+  margin-right: 18%;
   color: white;
 }
 .landing-page-strip_words {
@@ -175,7 +82,7 @@ li a:active {
   border-top: none;
   font-family: serif;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 2rem;
   
 }
 #extensions {
@@ -196,7 +103,7 @@ li a:active {
   display: flex;
   flex-direction: column;
   height: auto;
-  width: 90%;
+  width: 70%;
   box-shadow: hsla(200, 20%, 50%, .6) 0px 0px 40px 10px;
   border-radius: .5rem;
 }
@@ -216,7 +123,7 @@ li a:active {
   margin-left: 70px;
   margin-right: 70px;
   padding: 20px;
-  font-size: 1.4em;
+  font-size: 1.5rem;
   text-align: left;
   font-family: sans-serif;
 }
@@ -255,12 +162,12 @@ li a:active {
   flex-direction: column;
   height:100vh; 
   width: 100vw;
-  background-image: url("./assets/blond-fulllllllllll.jpg");
+  background-image: url("./assets/bgwide.jpg");
   background-color: #cccccc;
-  background-blend-mode: color-burn;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .color-words_wrapper {
   height: 90vh;
@@ -276,11 +183,11 @@ li a:active {
   display: flex;
   flex-direction: column;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 5.1rem;
 }
 .color-top, .color-mid, .color-bottom {
   flex: 1;
-  margin-left: 20px;
+  margin-left: 70px;
 }
 .color-top {
   color: white; 
