@@ -1,0 +1,57 @@
+@import '../widescreen.css';
+.quote-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100vh; 
+  width: 100vw;
+  background-image: url("../assets/quote-photo.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.quote {
+  width: 70%;
+  margin-bottom: 15%;
+  margin-right: 20px;
+}
+.quote p {
+  font-size: 23px;
+  color: white;
+  font-weight: 900;
+  font-family: sans-serif;
+  text-align: right;
+}
+#family-pic{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 30px;
+  height: 200px;
+  width: 200px;
+  border: rgb(165, 1, 165) solid 2px;
+}
+.contact-info {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  display: grid;
+  margin-bottom: 20px;
+}
+.contact-info h1 {
+  font-size: 2rem;
+}
+.contact-info div {
+  font-weight: bold;
+  text-align: left;
+  font-size: 1.3rem;
+  padding: 20px;
+  margin-left: 10px;
+}
+.contact-info a {
+  color: black;
+  text-decoration: underline;
+  margin-left: 5px;
+  color: rgb(165, 1, 165);
+}

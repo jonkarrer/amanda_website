@@ -1,0 +1,69 @@
+@import '../widescreen.css';
+main {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 48px;
+}
+.margin-block {
+  height: 6vh;
+}
+.title-block {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(165, 1, 165);
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1em;
+}
+.options_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#colorCards {
+  display: flex;
+  align-items: flex-end;
+  height: 280px;
+  width: 90%;
+  justify-content: flex-start;
+  border: rgb(165, 1, 165) solid thin;
+  perspective: 1000px;
+  transition: all 0.8s;
+  transform-style: preserve-3d;
+  position: absolute;
+  z-index: -2;
+}
+h1{
+  margin: 20px;
+  color: white;
+  font-size: 2.2em;
+  font-weight: 900;
+  transition: transform 0.4s;
+  pointer-events: none;
+}
+.hidden-box {
+  height: 280px;
+  width: 90%;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #d4b293;
+  transition: all 2s;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.hidden-box p{
+  margin: 20px;
+  font-size: 1.2em;
+  padding-top: 40px;
+  font-family: sans-serif;
+  z-index: -2;
+}
+.hidden-box p2 {
+  margin-right: 40px;
+  font-size: 1.3em;
+}
