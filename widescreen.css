@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  line-height: 1.2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+body,html {
+  width: 100vw;
+  height: 100vh;
+  background-color: #d4b293;
+  font-family: serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: serif;
+  font-weight: bold;
+}
+main {
+  overflow: hidden;
+}
+.navigation-bar {
+  background: whitesmoke;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+}
+/* Dropdown menu opening tools*/
+#drop-down_open-x-shape {
+  margin-right: 8px;
+  padding: 10px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+#drop-down_open-x-shape:hover {
+  cursor: pointer;
+  border: indigo solid thin;
+}
+#diagnal-line-one {
+  background-color: rgb(165, 1, 165);
+  width: 40px;
+  height: 3px;
+  transform: rotate(45deg);
+}
+#diagnal-line-two {
+  background-color: rgb(165, 1, 165);
+  width: 40px;
+  height: 3px;
+  transform: rotate(90deg);
+}
+/*Dropdow module tools*/
+.drop-down_open-overlay.open {
+  position: fixed;
+  z-index: 8;
+  background-color: rgba(75, 0, 130, .8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  transition: all 1s ease;
+}
+.drop-down_module {
+  position: fixed;
+  z-index: 8;
+  display: flex;
+  align-items: center;
+  margin-top: 2vh;
+  height: 60vh;
+  min-height: 400px;
+  width: 80vw;
+  transition:transform 1s ease;
+}
+.drop-down_open-overlay > *:first-child { transform: translateX(150%); }
+.drop-down_open-overlay.open-active > *:first-child { transform: translateX(0); }
+
+#drop-down-links {
+  z-index: 8;
+  list-style: none;
+  font-size: 10vw;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0);
+  letter-spacing: 5px;
+  font-family: 'Bodoni Moda', serif;
+} 
+.drop-down_module ul li {
+  padding: 2vh;
+  z-index: 8;
+}
+li a:hover {
+  cursor: pointer;
+  color: black;
+}
+li a:active {
+  font-size: 8vw;
+}
+/* Logo Tools*/
+#logo-text {
+  margin: 10px;
+  margin-left: 22px;
+  margin-bottom: 10px;
+  letter-spacing: -2px;
+  font-size: 6.5vw;
+}
+#by-text {
+  color: rgb(165, 1, 165);
+  font-weight: 900;
+  font-size: 7vw;
+}
+#hair-text {
+  letter-spacing: -3px;
+}
+#name-text {
+  font-weight: 600;
+}
+/*Drop Down Tools*/
+#drop-down-menu {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#drop-down-lines {
+  background-color: rgb(165, 1, 165);
+  width: 40px;
+  height: 3px;
+}
+#drop-down-line-middle {
+  width: 40px;
+  height: 10px;
+}
+#drop-down-menu:hover {
+  border-left: indigo solid thin;
+  border-right: indigo solid thin;
+  cursor: pointer;
+}
+/*Landing page Tools*/
+.landing-page-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  height: 100vh; 
+  width: 100vw;
+  background-image: url("./assets/light_pose.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.landing-page-strip {
+  display: flex;
+  height: 100%;
+  margin-right: 6%;
+  color: white;
+}
+.landing-page-strip_words {
+  background: rgba(134, 130, 134, .5);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 72vh;
+  width: 100%;
+  padding: 7px;
+  border: rgb(165, 1, 165) solid thin;
+  border-top: none;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 25px;
+  
+}
+#extensions {
+  color: rgb(165, 1, 165); 
+}
+/*Page Two Tools*/
+.ibe-page-wrapper {
+  background-color: #d4b293;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.white-modal {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 90%;
+  box-shadow: hsla(200, 20%, 50%, .6) 0px 0px 40px 10px;
+  border-radius: .5rem;
+}
+.white-modal_content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+#white-modal_img {
+  object-fit: contain;
+  width: 55vw;
+  height: 45vh;
+}
+#white-modal_info {
+  width: 90%;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding: 20px;
+  font-size: 1.4em;
+  text-align: left;
+  font-family: sans-serif;
+}
+#white-modal_info > p {
+  margin: 5px;
+}
+#white-modal_button {
+  background-color: rgb(165, 1, 165);
+  color: white;
+  height: 60px;
+  width: 45%;
+  margin-top: 5vw;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .2rem;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+#white-modal_button:hover {
+  cursor: pointer;
+}
+#white-modal_button:focus {
+  outline: none;
+}
+#white-modal_button:active {
+  background-color: ivory;
+}
+/*Colors pages Link*/
+.color-page_wrapper {
+  display: flex;
+  flex-direction: column;
+  height:100vh; 
+  width: 100vw;
+  background-image: url("./assets/blond-fulllllllllll.jpg");
+  background-color: #cccccc;
+  background-blend-mode: color-burn;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.color-words_wrapper {
+  height: 90vh;
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#boxOne {
+  flex: 1;
+}
+#boxTwo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 3em;
+}
+.color-top, .color-mid, .color-bottom {
+  flex: 1;
+  margin-left: 20px;
+}
+.color-top {
+  color: white; 
+}
+.color-mid {
+  color: yellow;
+}
+.color-bottom {
+  color:gold;
+}
+.color-info_wrapper {
+  background-color: #d4b293;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+#white-modal_img-2 {
+  object-fit: contain;
+  width: 60vw;
+  height: 40vh;
+  padding-top: 10px;
+}
+/*Testomonial Tools*/
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #d4b293;
+}
+.review-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  margin: 40px;
+  margin-bottom: 70px;
+  border-radius: 1em;
+  box-shadow: hsla(200, 20%, 50%, .6) 0px 20px 50px -13px;
+}
+.review-1 p1 {
+  margin: 40px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+.review-1 img {
+  padding: 13px;
+  border-radius: 50%;
+  background: #d4b293;
+  margin-top: -50px;
+}

@@ -23,7 +23,6 @@
   font-family: sans-serif;
   text-align: right;
 }
-
 #family-pic{
   margin-top: 30px;
   margin-bottom: 20px;
@@ -38,6 +37,7 @@
   text-align: center;
   margin-top: 10px;
   display: grid;
+  margin-bottom: 20px;
 }
 .contact-info h1 {
   font-size: 2rem;
