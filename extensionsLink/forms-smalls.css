@@ -81,7 +81,7 @@ main{
   border: rgb(165, 1, 165) solid thin;
   width: 70%;
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 /* external css: flickity.css */
 #image-1 {
@@ -121,6 +121,7 @@ body {
 
 .gallery {
   background: #EEE;
+  
 }
 
 .gallery-cell {

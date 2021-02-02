@@ -51,5 +51,8 @@ Day Two
     [] images on safari doesnt work. I think class declaring is
         not compatible. Check es6.
 [x] make mock up for color pages
-
+    [x] used a css perspective and transform combo to make the cards flip on click. Took some javascript.
+[x] contact page, basic html and css. 
+[x] optimize all images. 
+[x] add color pallete
 

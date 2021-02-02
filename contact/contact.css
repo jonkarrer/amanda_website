@@ -23,11 +23,13 @@
   font-family: sans-serif;
   text-align: right;
 }
-img {
-  padding-left: 20px;
-  padding-right: 20px;
+
+#family-pic{
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  padding: 30px;
+  height: 200px;
+  width: 200px;
   border: rgb(165, 1, 165) solid 2px;
 }
 .contact-info {
