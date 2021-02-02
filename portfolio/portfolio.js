@@ -11,7 +11,11 @@ const imageArr = [
   "./hair/h1.jpg", "./hair/h2.jpg",
   "./hair/i1.jpg", "./hair/i2.jpg",
   "./hair/j1.jpg", "./hair/j2.jpg",
-  "./hair/k1.jpg", "./hair/k2.jpg"
+  "./hair/k1.jpg", "./hair/k2.jpg",
+  "./hair/l1.jpg", "./hair/l2.jpg",
+  "./hair/m1.jpg", "./hair/m2.jpg",
+  "./hair/n1.jpg", "./hair/n2.jpg",
+  "./hair/o1.jpg", "./hair/o2.jpg",
 ]
 function injectImages() {
   for(let i = 0; i < imageArr.length; i += 2) {
