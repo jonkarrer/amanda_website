@@ -101,7 +101,7 @@
 
             <input id="name" type="text" placeholder="First Name" required></br>
             <input id="email" type="email" placeholder="Email" required></br>
-            <label for="marketing">How did you hear about me?</label></br>
+              <label for="marketing">How did you hear about me?</label></br>
             <select id="marketing" name="marketing" required>
               <option value="Google">Google</option>
               <option value="Facebook">Facebook</option>
@@ -109,26 +109,32 @@
               <option value="IBE">IBE Website</option>
               <option value="Other">Other</option>
             </select></br>
-            <label for="marketing">Your current hair length</label></br>
+              <label for="marketing">Your current hair length</label></br>
             <select id="marketing" name="marketing" required>
               <option value="Long">To my back</option>
               <option value="Medium">To my shoulders</option>
               <option value="Short">Above shoulders</option>
             </select></br>
-            <label for="extension">Have you had extensions before?</label></br>
-            <div>
-            <input type="checkbox" id="extension" name="extension"checked>
-            <label for="extensions">YES</label>
-            <input type="checkbox" id="extension" name="extension">
-            <label for="extensions">NO</label></br>
-          </div></br>
+              <label for="extension">Have you had extensions before?</label></br>
+            <div id="yes-no">
+              <div id="yes">
+              <input type="radio" id="extension" name="extension">Yes
+              </div>
+              <div id="no">
+              <input type="radio" id="extension" name="extension">No
+              </div>
+            </div></br></br>
           
             <label for="extension">I am interested in adding...</label></br>
-            <div>
-            <input type="checkbox" id="extension" name="extension"checked>
-            <label for="volume">Volume (usually runs at $900+)</label></br></br>
-            <input type="checkbox" id="extension" name="extension">
-            <label for="extensions">Length (usually runs at $1500+)</label></br>
+            <div id="interested">
+            <div id="volume">
+            <input type="radio" id="extension" name="extension">
+            <label for="volume" style="font-weight: 400;">Volume ( ~ $900+)
+            </div>
+            <div id="volume">
+            <input type="radio" id="extension" name="extension">
+            <label for="extensions" style="font-weight: 400;">Length/Volume ( ~ $1500+)</label>
+          </div>
           </div></br>
             <label for="phone">
               If you would like to move foward with the consultation, 
@@ -138,14 +144,10 @@
 
             <button type="submit">Submit</button></form></br>
           </form>
-          <p id="form-closing">I will either email you back or text you ASAP. Thanks You!</p>
+          <p id="form-closing">I will either email or text you ASAP. Thank You!</p>
         </div>
-        
-        
       </div>
-     
     </div>
-  
   </main>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script src="../dropdown-menu.js"></script>
