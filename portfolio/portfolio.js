@@ -1,17 +1,17 @@
 
 const mainElement = document.getElementById("portfolio-wrapper");
 const imageArr = [
-  "../assets/haira1.jpg", "../assets/haira2.jpg",
-  "../assets/hairb1.jpg", "../assets/hairb2.jpg",
-  "../assets/hairc1.jpg", "../assets/hairc2.jpg",
-  "../assets/haird1.jpg", "../assets/haird2.jpg",
-  "../assets/haire1.jpg", "../assets/haire2.jpg",
-  "../assets/hairf1.jpg", "../assets/hairf2.jpg",
-  "../assets/hairg1.jpg", "../assets/hairg2.jpg",
-  "../assets/hairh1.jpg", "../assets/hairh2.jpg",
-  "../assets/hairi1.jpg", "../assets/hairi2.jpg",
-  "../assets/hairj1.jpg", "../assets/hairj2.jpg",
-  "../assets/hairk1.jpg", "../assets/hairk2.jpg"
+  "./hair/a1.jpg", "./hair/a2.jpg",
+  "./hair/b1.jpg", "./hair/b2.jpg",
+  "./hair/c1.jpg", "./hair/c2.jpg",
+  "./hair/d1.jpg", "./hair/d2.jpg",
+  "./hair/e1.jpg", "./hair/e2.jpg",
+  "./hair/f1.jpg", "./hair/f2.jpg",
+  "./hair/g1.jpg", "./hair/g2.jpg",
+  "./hair/h1.jpg", "./hair/h2.jpg",
+  "./hair/i1.jpg", "./hair/i2.jpg",
+  "./hair/j1.jpg", "./hair/j2.jpg",
+  "./hair/k1.jpg", "./hair/k2.jpg"
 ]
 function injectImages() {
   for(let i = 0; i < imageArr.length; i += 2) {
