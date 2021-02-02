@@ -39,6 +39,9 @@
   margin-top: 10px;
   display: grid;
 }
+.contact-info h1 {
+  font-size: 2rem;
+}
 .contact-info div {
   font-weight: bold;
   text-align: left;

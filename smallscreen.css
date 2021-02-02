@@ -8,7 +8,7 @@
 body,html {
   width: 100vw;
   height: 100vh;
-  background-color: wheat;
+  background-color: #d4b293;
   font-family: serif;
 }
 a {
@@ -45,13 +45,13 @@ main {
   border: indigo solid thin;
 }
 #diagnal-line-one {
-  background-color: indigo;
+  background-color: rgb(165, 1, 165);
   width: 40px;
   height: 3px;
   transform: rotate(45deg);
 }
 #diagnal-line-two {
-  background-color: indigo;
+  background-color: rgb(165, 1, 165);
   width: 40px;
   height: 3px;
   transform: rotate(90deg);
@@ -180,11 +180,11 @@ li a:active {
   
 }
 #extensions {
-  color: rgb(165, 1, 165) 
+  color: rgb(165, 1, 165); 
 }
 /*Page Two Tools*/
 .ibe-page-wrapper {
-  background-color: wheat;
+  background-color: #d4b293;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -293,7 +293,7 @@ li a:active {
   color:gold;
 }
 .color-info_wrapper {
-  background-color: wheat;
+  background-color: #d4b293;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -314,6 +314,7 @@ li a:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #d4b293;
 }
 .review-1 {
   display: flex;
@@ -335,6 +336,6 @@ li a:active {
 .review-1 img {
   padding: 13px;
   border-radius: 50%;
-  background: wheat;
+  background: #d4b293;
   margin-top: -50px;
 }
