@@ -4,6 +4,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; 
 }
+/*Wide Css overflow classes*/
+.wide_drop-down_module{
+  display: none;
+}
+/*End*/
 body,html {
   width: 100vw;
   height: 100vh;

@@ -4,6 +4,26 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; 
 }
+/*Overflow classes*/
+.wide_drop-down_module {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+  margin-right: 30px;
+}
+#wide_drop-down-links li {
+  list-style: none;
+  color: black;
+  display: inline;
+  padding-left: 50px;
+}
+#wide_drop-down-links li a {
+  color: black;
+  font-size: 1.5rem;
+}
+/*End*/
 body,html {
   width: 100vw;
   height: 100vh;
