@@ -1,4 +1,7 @@
 @import '../widescreen.css';
+main {
+margin-top: 65px;
+}
 .quote-wrapper {
   display: flex;
   justify-content: flex-end;
@@ -10,6 +13,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .quote {
   width: 70%;
@@ -27,8 +31,8 @@
   margin-top: 30px;
   margin-bottom: 20px;
   padding: 30px;
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
   border: rgb(165, 1, 165) solid 2px;
 }
 .contact-info {
@@ -40,12 +44,12 @@
   margin-bottom: 20px;
 }
 .contact-info h1 {
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 .contact-info div {
   font-weight: bold;
-  text-align: left;
-  font-size: 1.3rem;
+  text-align: center;
+  font-size: 1.5rem;
   padding: 20px;
   margin-left: 10px;
 }
