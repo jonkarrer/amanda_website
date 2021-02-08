@@ -1,21 +1,21 @@
 
 const mainElement = document.getElementById("portfolio-wrapper");
 const imageArr = [
-  "./a1.jpg", "./a2.jpg",
-  "./b1.jpg", "./b2.jpg",
-  "./c1.jpg", "./c2.jpg",
-  "./d1.jpg", "./d2.jpg",
-  "./e1.jpg", "./e2.jpg",
-  "./f1.jpg", "./f2.jpg",
-  "./g1.jpg", "./g2.jpg",
-  "./h1.jpg", "./h2.jpg",
-  "./i1.jpg", "./i2.jpg",
-  "./j1.jpg", "./j2.jpg",
-  "./k1.jpg", "./k2.jpg",
-  "./l1.jpg", "./l2.jpg",
-  "./m1.jpg", "./m2.jpg",
-  "./n1.jpg", "./n2.jpg",
-  "./o1.jpg", "./o2.jpg",
+  "./assets/a1.jpg", "./assets/a2.jpg",
+  "./assets/b1.jpg", "./assets/b2.jpg",
+  "./assets/c1.jpg", "./assets/c2.jpg",
+  "./assets/d1.jpg", "./assets/d2.jpg",
+  "./assets/e1.jpg", "./assets/e2.jpg",
+  "./assets/f1.jpg", "./assets/f2.jpg",
+  "./assets/g1.jpg", "./assets/g2.jpg",
+  "./assets/h1.jpg", "./assets/h2.jpg",
+  "./assets/i1.jpg", "./assets/i2.jpg",
+  "./assets/j1.jpg", "./assets/j2.jpg",
+  "./assets/k1.jpg", "./assets/k2.jpg",
+  "./assets/l1.jpg", "./assets/l2.jpg",
+  "./assets/m1.jpg", "./assets/m2.jpg",
+  "./assets/n1.jpg", "./assets/n2.jpg",
+  "./assets/o1.jpg", "./assets/o2.jpg",
 ]
 function injectImages() {
   for(let i = 0; i < imageArr.length; i += 3) {
