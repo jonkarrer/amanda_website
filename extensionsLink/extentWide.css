@@ -5,6 +5,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.ibe-page-wrapper-form {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 a{
   text-decoration: none;
   color: white;
@@ -22,13 +31,15 @@ main{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .title-container {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-top: 0px;
+  align-items: center;
+  margin-top: 250px;
   height: 100%;
+  width: 70%;
+  max-width: 900px;
 }
 .title-container div {
   flex: 1;
@@ -39,15 +50,11 @@ main{
   color: white;
   font-weight: 900;
   font-family: serif;
-  border-left: rgb(165, 1, 165) solid thin;
+  font-size: 4rem;
   background: rgba(134, 130, 134, .5);
+  border-top: rgb(165, 1, 165) solid thin;
 }
-.title-container div:nth-child(1) {
-  border-top:rgb(165, 1, 165) solid thin;
-}
-.title-container div:last-child {
-  border-bottom:rgb(165, 1, 165) solid thin;
-}
+
 #white-modal-logo {
   display: block;
   border: rgb(165, 1, 165) solid thin;
@@ -68,8 +75,6 @@ form input {
 }
 #yes-no {
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
 }
 #yes,#no {
   display: flex;
@@ -112,7 +117,6 @@ form button {
   background-color: rgb(165, 1, 165);
   color: white;
   height: 60px;
-  margin-top: 5vw;
   display: flex;
   align-items: center;
   justify-content: center;
