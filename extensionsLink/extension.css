@@ -120,7 +120,7 @@ main{
   margin-top: 50px;
   height: 95vh;
   width: 100vw;
-  background-image: url('./Pp275oiY.jpg');
+  background-image: url('./assets/Pp275oiY.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -159,31 +159,31 @@ main{
 }
 /* external css: flickity.css */
 #image-1 {
-  background-image: url("./ibe-exp.jpg");
+  background-image: url("./assets/ibe-exp.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 #image-2 {
-  background-image: url("./ibe3.jpg");
+  background-image: url("./assets/ibe3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 #image-3 {
-  background-image: url("./ibe2.jpg");
+  background-image: url("./assets/ibe2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 #image-4 {
-  background-image: url("./ibe6.jpg");
+  background-image: url("./assets/ibe6.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 #image-5 {
-  background-image: url("./ibe8.jpg");
+  background-image: url("./assets/ibe8.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

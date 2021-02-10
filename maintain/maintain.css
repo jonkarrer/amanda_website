@@ -1,0 +1,8 @@
+@import '../smallscreen.css';
+
+body {
+  margin-top: 50px;
+}
+ol li {
+  padding: 10px;
+}

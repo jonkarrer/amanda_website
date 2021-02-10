@@ -27,7 +27,7 @@ main{
 .extension-landing {
   height: 100vh;
   width: 100vw;
-  background-image: url('./backwide2.jpg');
+  background-image: url('./assets/backwide2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -117,12 +117,14 @@ form button {
   background-color: rgb(165, 1, 165);
   color: white;
   height: 60px;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: .2rem;
   font-size: 25px;
   font-weight: 700;
+  margin: 0 auto;
 }
 #form-closing {
   font-size: 1.5rem;
@@ -132,31 +134,31 @@ form button {
 }
 /* external css: flickity.css */
 #image-1 {
-  background-image: url("./ibe-exp.jpg");
+  background-image: url("./assets/ibe-exp.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 #image-2 {
-  background-image: url("./ibe3.jpg");
+  background-image: url("./assets/ibe3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 #image-3 {
-  background-image: url("./ibe2.jpg");
+  background-image: url("./assets/ibe2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 #image-4 {
-  background-image: url("./ibe6.jpg");
+  background-image: url("./assets/ibe6.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 #image-5 {
-  background-image: url("./ibe8.jpg");
+  background-image: url("./assets/ibe8.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

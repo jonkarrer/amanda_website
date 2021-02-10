@@ -18,18 +18,16 @@ const imageArr = [
   "./assets/o1.jpg", "./assets/o2.jpg",
 ]
 function injectImages() {
-  for(let i = 0; i < imageArr.length; i += 3) {
+  for(let i = 0; i < imageArr.length; i += 2) {
     let row = document.createElement("div");
     row.id = "row";
     let image = document.createElement("div");
     image.style.backgroundImage = `url(${imageArr[i]})`
     let imageTwo = document.createElement("div");
     imageTwo.style.backgroundImage = `url(${imageArr[i+1]})`
-    let imageTre = document.createElement("div");
-    imageTre.style.backgroundImage = `url(${imageArr[i+2]})`
+
     row.appendChild(image);
     row.appendChild(imageTwo);
-    row.appendChild(imageTre);
     mainElement.appendChild(row);
   };
   return;
