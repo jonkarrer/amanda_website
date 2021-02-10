@@ -9,14 +9,21 @@ main {
   height: 6vh;
 }
 .title-block {
-  height: 100px;
+  padding-bottom: 20px;
   width: 100%;
   background-color: rgb(165, 1, 165);
   margin-bottom: 40px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 1.1em;
+}
+.title-block p {
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+  margin-left: 10px;
 }
 .options_wrapper {
   display: flex;
