@@ -231,8 +231,8 @@ li a:active {
 #white-modal_button {
   background-color: rgb(165, 1, 165);
   color: white;
-  height: 60px;
-  width: 45%;
+  height: 45px;
+  padding: 15px;
   margin-top: 5vw;
   margin-bottom: 30px;
   display: flex;
