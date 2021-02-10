@@ -213,8 +213,9 @@ li a:active {
 }
 #white-modal_img {
   object-fit: contain;
-  width: 55vw;
-  height: 45vh;
+  width: 30vw;
+  height: 30vh;
+  padding-top: 20px;
 }
 #white-modal_info {
   width: 90%;

@@ -18,7 +18,7 @@
   list-style: none;
   color: black;
   display: inline;
-  padding-left: 50px;
+  padding-left: 20px;
 }
 #wide_drop-down-links li a {
   color: black;
@@ -145,8 +145,9 @@ main {
 }
 #white-modal_img {
   object-fit: contain;
-  width: 55vw;
-  height: 45vh;
+  width: 30vw;
+  height: 30vh;
+  padding-top: 20px;
 }
 #white-modal_info {
   width: 75%;
