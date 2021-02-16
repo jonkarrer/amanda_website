@@ -94,7 +94,6 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   margin-top: -20px;
 }
 .landing-page-strip {
@@ -204,7 +203,6 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 .color-words_wrapper {
   height: 90vh;
