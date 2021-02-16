@@ -70,7 +70,7 @@ form select {
   margin-top: 20px;
 }
 form button {
-  background-color: rgb(165, 1, 165);
+  background-color: var(--main-color);
   color: white;
   height: 60px;
   margin-top: 5vw;
@@ -141,18 +141,18 @@ main{
   color: white;
   font-weight: 900;
   font-family: serif;
-  border-left: rgb(165, 1, 165) solid thin;
+  border-left: var(--second-color) solid thick;
   background: rgba(134, 130, 134, .5);
 }
 .title-container div:nth-child(1) {
-  border-top:rgb(165, 1, 165) solid thin;
+  border-top:var(--second-color) solid thick;
 }
 .title-container div:last-child {
-  border-bottom:rgb(165, 1, 165) solid thin;
+  border-bottom:var(--second-color) solid thick;
 }
 #white-modal-logo {
   display: block;
-  border: rgb(165, 1, 165) solid thin;
+  border: var(--main-color) solid thin;
   width: 70%;
   margin-top: 30px;
   margin-bottom: 50px;

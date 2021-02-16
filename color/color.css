@@ -11,7 +11,7 @@ main {
 .title-block {
   padding-bottom: 20px;
   width: 100%;
-  background-color: rgb(165, 1, 165);
+  background-color: var(--main-color);
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@ main {
   height: 280px;
   width: 90%;
   justify-content: flex-start;
-  border: rgb(165, 1, 165) solid thin;
+  border: var(--main-color) solid thin;
   perspective: 1000px;
   transition: all 0.8s;
   transform-style: preserve-3d;

@@ -5,6 +5,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; 
 }
+:root {
+  --main-color: #652a0e;
+  --second-color: #9a784f;
+}
 /*Overflow classes*/
 .wide_drop-down_module {
   flex: 1;
@@ -22,7 +26,7 @@
 }
 #wide_drop-down-links li a {
   color: black;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 .drop-down_open-overlay {
   display: none;
@@ -69,7 +73,7 @@ main {
   cursor: pointer;
 }
 #by-text {
-  color: rgb(165, 1, 165);
+  color: var(--second-color);
   font-weight: 900;
   font-size: 2.6rem;
 }
@@ -115,7 +119,7 @@ main {
   
 }
 #extensions {
-  color: rgb(165, 1, 165); 
+  color: var(--main-color); 
 }
 /*Page Two Tools*/
 .ibe-page-wrapper {
@@ -164,7 +168,7 @@ main {
   margin: 5px;
 }
 #white-modal_button {
-  background-color: rgb(165, 1, 165);
+  background-color: var(--main-color);
   color: white;
   height: 60px;
   width: 45%;

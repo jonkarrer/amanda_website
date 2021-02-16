@@ -29,7 +29,7 @@
   padding: 30px;
   height: 200px;
   width: 200px;
-  border: rgb(165, 1, 165) solid 2px;
+  border: var(--main-color) solid 2px;
 }
 .contact-info {
   height: auto;
@@ -45,7 +45,7 @@
 .contact-info div {
   font-weight: bold;
   text-align: left;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding: 20px;
   margin-left: 10px;
 }
@@ -53,5 +53,5 @@
   color: black;
   text-decoration: underline;
   margin-left: 5px;
-  color: rgb(165, 1, 165);
+  color: var(--second-color);
 }

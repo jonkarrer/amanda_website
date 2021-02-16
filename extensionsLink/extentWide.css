@@ -52,12 +52,12 @@ main{
   font-family: serif;
   font-size: 4rem;
   background: rgba(134, 130, 134, .5);
-  border-top: rgb(165, 1, 165) solid thin;
+  border-top: var(--second-color) solid thick;
 }
 
 #white-modal-logo {
   display: block;
-  border: rgb(165, 1, 165) solid thin;
+  border: var(--second-color) solid thin;
   width: 70%;
   margin-top: 30px;
   margin-bottom: 50px;
@@ -114,7 +114,7 @@ form select {
   margin-top: 20px;
 }
 form button {
-  background-color: rgb(165, 1, 165);
+  background-color: var(--main-color);
   color: white;
   height: 60px;
   width: 50%;

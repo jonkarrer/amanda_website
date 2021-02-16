@@ -33,7 +33,7 @@ margin-top: 50px;
   padding: 30px;
   height: 400px;
   width: 400px;
-  border: rgb(165, 1, 165) solid 2px;
+  border: var(--main-color) solid 2px;
 }
 .contact-info {
   height: auto;
@@ -49,7 +49,7 @@ margin-top: 50px;
 .contact-info div {
   font-weight: bold;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 20px;
   margin-left: 10px;
 }
@@ -57,5 +57,5 @@ margin-top: 50px;
   color: black;
   text-decoration: underline;
   margin-left: 5px;
-  color: rgb(165, 1, 165);
+  color: var(--second-color);
 }
