@@ -110,7 +110,7 @@ main {
   height: 72vh;
   width: 100%;
   padding: 7px;
-  border: rgb(165, 1, 165) solid thin;
+  border: var(--second-color) solid thin;
   border-top: none;
   font-family: serif;
   font-weight: bold;
