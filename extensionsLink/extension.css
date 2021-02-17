@@ -81,6 +81,9 @@ form button {
   font-size: 25px;
   font-weight: 700;
 }
+form button:hover {
+  cursor: pointer;
+}
 #form-closing {
   font-size: 1.5rem;
   width: 80%;

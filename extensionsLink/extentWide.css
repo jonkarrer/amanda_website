@@ -125,6 +125,9 @@ form button {
   font-weight: 700;
   margin: 0 auto;
 }
+form button:hover {
+  cursor: pointer;
+}
 #form-closing {
   font-size: 1.5rem;
   width: 80%;
