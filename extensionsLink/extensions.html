@@ -109,10 +109,10 @@
             to know you. Extension services are custom to each client. You will be
             in my chair in no time!
           </div>
-          <form>
-            <input id="name" type="text" placeholder="First Name" required></br>
-            <input id="name" type="text" placeholder="Last Name" required></br>
-            <input id="email" type="email" placeholder="Email" required></br>
+          <form action="POST" data-netlify="true">
+            <input name="name" id="name" type="text" placeholder="First Name" required></br>
+            <input name="name" id="name" type="text" placeholder="Last Name" required></br>
+            <input name="email" id="email" type="email" placeholder="Email" required></br>
               <label for="marketing">How did you hear about me?</label></br>
             <select id="marketing" name="marketing" required>
               <option value="Google">Google</option>
@@ -121,8 +121,8 @@
               <option value="IBE">IBE Website</option>
               <option value="Other">Other</option>
             </select></br>
-              <label for="marketing">Your current hair length</label></br>
-            <select id="marketing" name="marketing" required>
+              <label for="info">Your current hair length</label></br>
+            <select id="marketing" name="info" required>
               <option value="Short">Above my shoulders</option>
               <option value="Medium">To my shoulders</option>
               <option value="Long">To my back</option>
