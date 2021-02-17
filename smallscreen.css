@@ -82,9 +82,9 @@ main {
   display: flex;
   align-items: center;
   margin-top: 2vh;
-  height: 60vh;
+  height: 60%;
   min-height: 400px;
-  width: 80vw;
+  width: 80%;
   transition:transform 1s ease;
 }
 .drop-down_open-overlay > *:first-child { transform: translateX(150%); }
