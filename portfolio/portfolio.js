@@ -32,16 +32,18 @@ const imageArr = [
   "./assets/o2.jpg",
 ];
 function injectImages() {
-  for (let i = 0; i < imageArr.length; i += 2) {
+  for (let i = 0; i < imageArr.length; i += 3) {
     let row = document.createElement("div");
     row.id = "row";
     let image = document.createElement("div");
     image.style.backgroundImage = `url(${imageArr[i]})`;
     let imageTwo = document.createElement("div");
     imageTwo.style.backgroundImage = `url(${imageArr[i + 1]})`;
-
+    let imageThree = document.createElement("div");
+    imageThree.style.backgroundImage = `url(${imageArr[i + 2]})`;
     row.appendChild(image);
     row.appendChild(imageTwo);
+    row.appendChild(imageThree);
     mainElement.appendChild(row);
   }
   return;
