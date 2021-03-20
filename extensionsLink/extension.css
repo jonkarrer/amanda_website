@@ -1,11 +1,11 @@
-@import '../smallscreen.css';
-*{
+@import "../smallscreen.css";
+* {
   margin: 0;
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-a{
+a {
   text-decoration: none;
   color: white;
 }
@@ -32,19 +32,20 @@ form input {
 #yes-no {
   display: flex;
 }
-#yes,#no {
+#yes,
+#no {
   display: flex;
   align-items: center;
 }
-input[type='radio'] {
-  -webkit-appearance:none;
+input[type="radio"] {
+  -webkit-appearance: none;
   padding: 9px;
   margin: 20px;
-  background:white;
-  border-radius:5px;
-  border:2px solid #555;
+  background: white;
+  border-radius: 5px;
+  border: 2px solid #555;
 }
-input[type='radio']:checked {
+input[type="radio"]:checked {
   background: blue;
 }
 form label {
@@ -77,7 +78,7 @@ form button {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
   font-size: 25px;
   font-weight: 700;
 }
@@ -90,7 +91,7 @@ form button:hover {
   padding-bottom: 20px;
   margin-top: 10px;
 }
-main{
+main {
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -104,12 +105,12 @@ main{
   top: 0;
   width: 100%;
   overflow: hidden;
-  font-family: 'Bodoni Moda', serif;
+  font-family: "Bodoni Moda", serif;
 }
 .drop-down_open-overlay.open {
   position: fixed;
   z-index: 4;
-  background-color: rgba(75, 0, 130, .8);
+  background-color: rgba(75, 0, 130, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,7 +124,7 @@ main{
   margin-top: 50px;
   height: 95vh;
   width: 100vw;
-  background-image: url('./assets/Pp275oiY.jpg');
+  background-image: url("./assets/Pp275oiY.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -145,13 +146,13 @@ main{
   font-weight: 900;
   font-family: serif;
   border-left: var(--second-color) solid thick;
-  background: rgba(134, 130, 134, .5);
+  background: rgba(134, 130, 134, 0.5);
 }
 .title-container div:nth-child(1) {
-  border-top:var(--second-color) solid thick;
+  border-top: var(--second-color) solid thick;
 }
 .title-container div:last-child {
-  border-bottom:var(--second-color) solid thick;
+  border-bottom: var(--second-color) solid thick;
 }
 #white-modal-logo {
   display: block;
@@ -191,20 +192,20 @@ main{
   background-position: center;
   background-repeat: no-repeat;
 }
-body { 
+body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 .gallery {
-  background: #EEE;
+  background: #eee;
 }
 
 .gallery-cell {
   width: 66%;
   height: 300px;
   margin-right: 10px;
-  background: #8C8;
+  background: #8c8;
 }
 
 /* cell number */

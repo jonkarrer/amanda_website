@@ -1,12 +1,12 @@
-@import '../widescreen.css';
+@import "../widescreen.css";
 main {
-margin-top: 50px;
+  margin-top: 50px;
 }
 .quote-wrapper {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  height: 100vh; 
+  height: 100vh;
   width: 100vw;
   background-image: url("../assets/quote-photo.jpg");
   background-color: #cccccc;
@@ -26,7 +26,7 @@ margin-top: 50px;
   font-family: sans-serif;
   text-align: right;
 }
-#family-pic{
+#family-pic {
   margin-top: 30px;
   margin-bottom: 20px;
   padding: 30px;

@@ -1,4 +1,4 @@
-@import '../widescreen.css';
+@import "../widescreen.css";
 main {
   display: flex;
   flex-direction: column;
@@ -44,7 +44,7 @@ main {
 #colorCards:hover {
   cursor: pointer;
 }
-h1{
+h1 {
   margin: 20px;
   color: white;
   font-size: 2.2em;
@@ -64,7 +64,7 @@ h1{
   flex-direction: column;
   margin-bottom: 40px;
 }
-.hidden-box p{
+.hidden-box p {
   margin: 20px;
   font-size: 1.2em;
   padding-top: 40px;

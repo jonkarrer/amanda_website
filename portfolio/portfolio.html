@@ -1,61 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preload" href="portWide.css" as="style">
-  <link rel="preload" href="../dropdown-menu.js" as="script">
-  <link rel="preload" href="./portfolio.js" as="script">
-  <link rel="stylesheet" media="screen and (min-width: 901px)" href="portWide.css">
-  <link rel="stylesheet" media="screen and (max-width: 900px)" href="portfolio.css">
-  <title>Portfolio</title>
-</head>
-<body>
-  <div class="navigation-bar">
-    <div id="logo-text" onclick="goHome()">
-      <span id="hair-text">Hair</span>
-      <span id="by-text"> by</span>
-      <span id="name-text"> Amanda</span>
-    </div>
-     <!--This is hidden in smallscreen.css-->
-     <div class="wide_drop-down_module">
-      <ul id="wide_drop-down-links">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../extensionsLink/extensions.html">Extensions</a></li>
-        <li><a href="../maintain/maintain.html">Maintain</a></li> 
-        <li ><a style="color: #652a0e;" href="../color/color.html">Color</a></li>
-        <li><a href="../contact/contact.html">Conact</a></li> 
-      </ul>
-    </div>
-     <!--End of hidden-->
-    <div id="drop-down-menu" onclick="activate()">
-      <div id="drop-down-lines"></div>
-      <div id="drop-down-line-middle"></div>
-      <div id="drop-down-lines"></div>
-    </div>
-    <div id="drop-down_open-x-shape" onclick="deActivate()">
-      <div id="diagnal-line-one">
-        <div id="diagnal-line-two"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preload" href="portWide.css" as="style" />
+    <link rel="preload" href="../dropdown-menu.js" as="script" />
+    <link rel="preload" href="./portfolio.js" as="script" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 901px)"
+      href="portWide.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 900px)"
+      href="portfolio.css"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="navigation-bar">
+      <div id="logo-text" onclick="goHome()">
+        <span id="hair-text">Hair</span>
+        <span id="by-text"> by</span>
+        <span id="name-text"> Amanda</span>
       </div>
-    </div>
-  </div>
-  <div id="main">
-    <div class="drop-down_open-overlay">
-      <div class="drop-down_module">
-        <ul id="drop-down-links">
+      <!--This is hidden in smallscreen.css-->
+      <div class="wide_drop-down_module">
+        <ul id="wide_drop-down-links">
           <li><a href="../index.html">Home</a></li>
           <li><a href="../extensionsLink/extensions.html">Extensions</a></li>
-          <li><a href="../maintain/maintain.html">Maintain</a></li> 
-          <li><a href="../color/color.html">Color</a></li>
-          <li><a href="../contact/contact.html">Conact</a></li> 
+          <li><a href="../maintain/maintain.html">Maintain</a></li>
+          <li>
+            <a style="color: #652a0e" href="../color/color.html">Color</a>
+          </li>
+          <li><a href="../contact/contact.html">Conact</a></li>
         </ul>
       </div>
+      <!--End of hidden-->
+      <div id="drop-down-menu" onclick="activate()">
+        <div id="drop-down-lines"></div>
+        <div id="drop-down-line-middle"></div>
+        <div id="drop-down-lines"></div>
+      </div>
+      <div id="drop-down_open-x-shape" onclick="deActivate()">
+        <div id="diagnal-line-one">
+          <div id="diagnal-line-two"></div>
+        </div>
+      </div>
     </div>
-    <div id="portfolio-wrapper">
-      <!-- Inject images here -->
+    <div id="main">
+      <div class="drop-down_open-overlay">
+        <div class="drop-down_module">
+          <ul id="drop-down-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../extensionsLink/extensions.html">Extensions</a></li>
+            <li><a href="../maintain/maintain.html">Maintain</a></li>
+            <li><a href="../color/color.html">Color</a></li>
+            <li><a href="../contact/contact.html">Conact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="portfolio-wrapper">
+        <!-- Inject images here -->
+      </div>
     </div>
-  </div>
-  <script src="./portfolio.js"></script>
-  <script src="../dropdown-menu.js"></script>
-</body>
+    <script src="./portfolio.js"></script>
+    <script src="../dropdown-menu.js"></script>
+  </body>
 </html>

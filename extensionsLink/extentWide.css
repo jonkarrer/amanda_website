@@ -1,5 +1,5 @@
-@import '../widescreen.css';
-*{
+@import "../widescreen.css";
+* {
   margin: 0;
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
@@ -14,11 +14,11 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
-a{
+a {
   text-decoration: none;
   color: white;
 }
-main{
+main {
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -27,7 +27,7 @@ main{
 .extension-landing {
   height: 100vh;
   width: 100vw;
-  background-image: url('./assets/backwide2.jpg');
+  background-image: url("./assets/backwide2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@ main{
   font-weight: 900;
   font-family: serif;
   font-size: 4rem;
-  background: rgba(134, 130, 134, .5);
+  background: rgba(134, 130, 134, 0.5);
   border-top: var(--second-color) solid thick;
 }
 
@@ -75,19 +75,20 @@ form input {
 #yes-no {
   display: flex;
 }
-#yes,#no {
+#yes,
+#no {
   display: flex;
   align-items: center;
 }
-input[type='radio'] {
-  -webkit-appearance:none;
+input[type="radio"] {
+  -webkit-appearance: none;
   padding: 9px;
   margin: 20px;
-  background:white;
-  border-radius:5px;
-  border:2px solid #555;
+  background: white;
+  border-radius: 5px;
+  border: 2px solid #555;
 }
-input[type='radio']:checked {
+input[type="radio"]:checked {
   background: blue;
 }
 form label {
@@ -120,7 +121,7 @@ form button {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
   font-size: 25px;
   font-weight: 700;
   margin: 0 auto;
@@ -165,20 +166,20 @@ form button:hover {
   background-position: center;
   background-repeat: no-repeat;
 }
-body { 
+body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 .gallery {
-  background: #EEE;
+  background: #eee;
 }
 
 .gallery-cell {
   width: 66%;
   height: 500px;
   margin-right: 10px;
-  background: #8C8;
+  background: #8c8;
 }
 
 /* cell number */

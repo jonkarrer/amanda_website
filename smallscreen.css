@@ -2,18 +2,19 @@
   margin: 0;
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; 
+  -moz-osx-font-smoothing: grayscale;
 }
 :root {
   --main-color: #652a0e;
   --second-color: #9a784f;
 }
 /*Wide Css overflow classes*/
-.wide_drop-down_module{
+.wide_drop-down_module {
   display: none;
 }
 /*End*/
-body,html {
+body,
+html {
   width: 100vw;
   height: 100vh;
   background-color: #d4b293;
@@ -67,7 +68,7 @@ main {
 .drop-down_open-overlay.open {
   position: fixed;
   z-index: 8;
-  background-color: rgba(75, 0, 130, .8);
+  background-color: rgba(75, 0, 130, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,10 +86,14 @@ main {
   height: 60%;
   min-height: 400px;
   width: 80%;
-  transition:transform 1s ease;
+  transition: transform 1s ease;
 }
-.drop-down_open-overlay > *:first-child { transform: translateX(150%); }
-.drop-down_open-overlay.open-active > *:first-child { transform: translateX(0); }
+.drop-down_open-overlay > *:first-child {
+  transform: translateX(150%);
+}
+.drop-down_open-overlay.open-active > *:first-child {
+  transform: translateX(0);
+}
 
 #drop-down-links {
   z-index: 8;
@@ -97,8 +102,8 @@ main {
   font-weight: 600;
   color: rgba(0, 0, 0, 0);
   letter-spacing: 5px;
-  font-family: 'Bodoni Moda', serif;
-} 
+  font-family: "Bodoni Moda", serif;
+}
 .drop-down_module ul li {
   padding: 2vh;
   z-index: 8;
@@ -157,7 +162,7 @@ li a:active {
 .landing-page-wrapper {
   display: flex;
   justify-content: flex-end;
-  height: 100vh; 
+  height: 100vh;
   width: 100vw;
   background-image: url("./assets/light_pose.jpg");
   background-color: #cccccc;
@@ -172,7 +177,7 @@ li a:active {
   color: white;
 }
 .landing-page-strip_words {
-  background: rgba(134, 130, 134, .5);
+  background: rgba(134, 130, 134, 0.5);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -184,10 +189,9 @@ li a:active {
   font-family: serif;
   font-weight: bold;
   font-size: 25px;
-  
 }
 #extensions {
-  color: var(--main-color); 
+  color: var(--main-color);
 }
 /*Page Two Tools*/
 .ibe-page-wrapper {
@@ -205,8 +209,8 @@ li a:active {
   flex-direction: column;
   height: auto;
   width: 90%;
-  box-shadow: hsla(200, 20%, 50%, .6) 0px 0px 40px 10px;
-  border-radius: .5rem;
+  box-shadow: hsla(200, 20%, 50%, 0.6) 0px 0px 40px 10px;
+  border-radius: 0.5rem;
 }
 .white-modal_content-wrapper {
   display: flex;
@@ -241,7 +245,7 @@ li a:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
   font-size: 25px;
   font-weight: 700;
   text-align: center;
@@ -261,7 +265,7 @@ li a:active {
 .color-page_wrapper {
   display: flex;
   flex-direction: column;
-  height:100vh; 
+  height: 100vh;
   width: 100vw;
   background-image: url("./assets/colorcoloropto.jpg");
   background-color: #cccccc;
@@ -285,18 +289,20 @@ li a:active {
   font-weight: bold;
   font-size: 3em;
 }
-.color-top, .color-mid, .color-bottom {
+.color-top,
+.color-mid,
+.color-bottom {
   flex: 1;
   margin-left: 20px;
 }
 .color-top {
-  color: white; 
+  color: white;
 }
 .color-mid {
   color: yellow;
 }
 .color-bottom {
-  color:gold;
+  color: gold;
 }
 .color-info_wrapper {
   background-color: #d4b293;
@@ -332,7 +338,7 @@ li a:active {
 
   margin-top: 90px;
   border-radius: 1em;
-  box-shadow: hsla(200, 20%, 50%, .6) 0px 20px 50px -13px;
+  box-shadow: hsla(200, 20%, 50%, 0.6) 0px 20px 50px -13px;
 }
 .review-1 p1 {
   margin: 40px;

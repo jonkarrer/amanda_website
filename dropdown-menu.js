@@ -10,18 +10,18 @@ const activate = () => {
   dropdownOverlay.classList.toggle("open-active");
   dropDownModule.classList.toggle("open");
   dropDownLinks.style.color = "white";
-  dropDownLinks.style.borderLeft= "white solid 5px";
+  dropDownLinks.style.borderLeft = "white solid 5px";
   dropDownLinks.style.zIndex = "8";
-}
+};
 const deActivate = () => {
   hamburgerIcon.style.display = "flex";
   exIcon.style.display = "none";
   dropDownModule.classList.toggle("open");
-  dropdownOverlay.classList.toggle("open-active")
+  dropdownOverlay.classList.toggle("open-active");
   setTimeout(() => {
-    dropdownOverlay.classList.toggle("open")
+    dropdownOverlay.classList.toggle("open");
   }, 600);
-}
+};
 const goHome = () => {
   window.location.href = "../index.html";
-}
+};
