@@ -110,7 +110,7 @@ main {
 .drop-down_open-overlay.open {
   position: fixed;
   z-index: 4;
-  background-color: rgba(75, 0, 130, 0.8);
+  background-color: var(--main-color);
   display: flex;
   justify-content: center;
   align-items: center;
