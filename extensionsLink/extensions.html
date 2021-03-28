@@ -113,6 +113,8 @@
             <input name="first-name" id="name" type="text" placeholder="First Name" required></br>
             <input name="last-name" id="name" type="text" placeholder="Last Name" required></br>
             <input name="email" id="email" type="email" placeholder="Email" required></br>
+            <label for="phone">Enter Phone number</label>
+            <input type="text" name="phone" id="phone" placeholder="225-333-5555"></br>
             <label for="marketing">How did you hear about me?</label></br>
               <select id="marketing" name="marketing" required>
                 <option value="Google">Google</option>
@@ -152,10 +154,16 @@
               </div>
             </div></br>
             <label for="phone">
-              If you would like to move foward with the consultation, 
-              put your phone number below.
+              Would you like to move foward with a consultation?
             </label></br>
-            <input type="text" name="phone" id="phone" placeholder="#225-555-555"></br>
+            <div id="yes-no">
+              <div id="yes">
+                <input type="radio" id="extension" name="extension-history" value="Yes">Yes
+              </div>
+              <div id="no">
+                <input type="radio" id="extension" name="extension-history" value="NO">No
+              </div>
+            </div></br></br>
             <button type="submit">Submit</button></form></br>
           </form>
           <p id="form-closing"style="text-align: center;">I will either email or text you ASAP. Thank You!</p>
