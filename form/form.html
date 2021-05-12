@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Hair by Amanda</title>
+  </head>
+  <body>
+  <a class="go-back" href="../extensionsLink/extensions.html">Go Back</a>
+      <form action="POST" data-netlify="true">
+        <div>
+          <label for="name">
+            Name:
+            <input
+              name="first-name"
+              id="name"
+              type="text"
+              placeholder="First/Last Name"
+              required
+            />
+          </label>
+        </div>
+        <div>
+          <label for="Email">
+            Email:
+            <input
+              name="Email"
+              id="email"
+              type="email"
+              placeholder="Email"
+              required
+            />
+          </label>
+        </div>
+        <div>
+          <label for="Contact Number">
+            Phone number: (only used for consultation)
+            <input
+              type="tel"
+              name="Contact Number"
+              id="phone"
+              placeholder="225-333-5555"
+              required
+            />
+          </label>
+        </div>
+        <div>
+          <label for="How did you hear about me?">
+            <p>How did you hear about me?</p>
+            <select id="marketing" name="How did you hear about me?" required>
+              <option value="Google">Google</option>
+              <option value="Facebook">Facebook</option>
+              <option value="Insta">Instagram</option>
+              <option value="IBE">IBE Website</option>
+              <option value="Other">Other</option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <label for="What is your hair length?">
+            <p>What is your hair length?</p>
+            <select id="hair-length" name="What is your hair length?" required>
+              <option value="Above my shoulders">Above my shoulders</option>
+              <option value="To my shoulders">To my shoulders</option>
+              <option value="To my back">To my back</option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <label for="Have you ever worn extensions before?">
+            <p>Have you ever worn extensions before?</p>
+            <select name="Have you ever worn extensions before?" required>
+              <option value="">---</option>
+              <option value="">Yes</option>
+              <option value="">No</option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <label for="What type of extensions have you worn before?">
+            <p>What type of extensions have you worn before?</p>
+            <select
+              name="What type of extensions have you worn before?"
+              required
+            >
+              <option value="None">None</option>
+              <option value="Fusion">Fusion</option>
+              <option value="Clip">Clip</option>
+              <option value="Tape">Tape</option>
+              <option value="Sew-in">Sew-in</option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <label for="I am interested in adding">
+            <p>I am interested in adding...</p>
+            <select name="I am interested in adding" required>
+              <option value="Volume">Volume</option>
+              <option value="Length">Length</option>
+              <option value="Volume & Length">Volume & Length</option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <label for="Did you know the price?">
+            <p>
+              Did you know that a guest getting Invisible Bead Extensions for
+              the first time can expect to pay anywhere between $700-$2400 on
+              average?
+            </p>
+            <select name="Did you know the price?" required>
+              <option value="No, I was not aware I would like to wait.">
+                No, I was not aware I would like to wait.
+              </option>
+              <option value="Yes, I am aware I would like to move foward.">
+                Yes, I am aware I would like to move foward.
+              </option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <label for="Would you like to move foward with a consultation?">
+            <p>Would you like to move foward with a consultation?</p>
+            <select name="Have you ever worn extensions before?" required>
+              <option value="">---</option>
+              <option value="">Yes</option>
+              <option value="">No</option>
+            </select>
+          </label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>

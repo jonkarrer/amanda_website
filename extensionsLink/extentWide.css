@@ -5,6 +5,27 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body {
+  overflow-x: hidden;
+}
+main {
+  overflow: hidden;
+}
+.consultation-button {
+  padding: 10px 0;
+  background: var(--main-color);
+  width: 80%;
+  max-width: 1000px;
+  height: 60px;
+  margin: 10px auto;
+  margin-top: 40px;
+  display: grid;
+  place-content: center;
+  font-size: 2rem;
+}
+.consultation-button:hover {
+  cursor: pointer;
+}
 .ibe-page-wrapper-form {
   background: white;
   display: flex;
@@ -25,12 +46,11 @@ main {
 }
 /*Page Specific Tools*/
 .extension-landing {
-  height: 100vh;
-  width: 100vw;
   background-image: url("./assets/backwide2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 .title-container {
   display: flex;

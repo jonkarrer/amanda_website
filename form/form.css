@@ -1,0 +1,129 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 30px;
+}
+.go-back {
+  color: blue;
+  font-size: 30px;
+  margin: 10px;
+  width: 100%;
+}
+.go-back:hover {
+  cursor: pointer;
+}
+form {
+  display: grid;
+  gap: 30px;
+  margin-top: 40px;
+}
+div {
+  text-align: left;
+  font-size: 1.3rem;
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+}
+input {
+  height: 40px;
+  width: 100%;
+  padding: 0 10px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+select {
+  width: 300px;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  line-height: inherit;
+}
+form button {
+  background-color: #652a0e;
+  color: white;
+  height: 60px;
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.2rem;
+  font-size: 25px;
+  font-weight: 700;
+}
+button:hover {
+  cursor: pointer;
+}
+/*Small*/
+@media (min-width: 640px) {
+  .go-back {
+    color: blue;
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+  }
+  div {
+    text-align: left;
+    font-size: 1.5rem;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+  }
+  input {
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  select {
+    width: 300px;
+    font-size: xx-large;
+
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+  }
+  form button {
+    background-color: #652a0e;
+    color: white;
+    height: 60px;
+    width: 40%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.2rem;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+}
+/*Medium*/
+@media (min-width: 768px) {
+}
+/*Large*/
+@media (min-width: 1024px) {
+}
+/*X-large*/
+@media (min-width: 1280px) {
+}
+/*XX-large*/
+@media (min-width: 1536px) {
+}
