@@ -8,7 +8,7 @@ body {
 }
 .go-back {
   color: blue;
-  font-size: 30px;
+  font-size: 20px;
   margin: 10px;
   width: 100%;
 }
@@ -37,13 +37,13 @@ input {
 select {
   width: 300px;
   font-size: 20px;
-  background-color: transparent;
   border: none;
   padding: 0 1em 0 0;
   margin: 0;
   width: 100%;
   font-family: inherit;
   line-height: inherit;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 form button {
   background-color: #652a0e;
@@ -85,18 +85,8 @@ button:hover {
   }
   select {
     width: 300px;
-    font-size: xx-large;
-
-    appearance: none;
-    background-color: transparent;
-    border: none;
-    padding: 0 1em 0 0;
-    margin: 0;
-    width: 100%;
-    font-family: inherit;
-    font-size: inherit;
-    cursor: inherit;
-    line-height: inherit;
+    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0.1);
   }
   form button {
     background-color: #652a0e;

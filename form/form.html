@@ -42,6 +42,7 @@
               name="Contact Number"
               id="phone"
               placeholder="225-333-5555"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
               required
             />
           </label>
@@ -50,6 +51,7 @@
           <label for="How did you hear about me?">
             <p>How did you hear about me?</p>
             <select id="marketing" name="How did you hear about me?" required>
+              <option value="">---</option>
               <option value="Google">Google</option>
               <option value="Facebook">Facebook</option>
               <option value="Insta">Instagram</option>
@@ -62,6 +64,7 @@
           <label for="What is your hair length?">
             <p>What is your hair length?</p>
             <select id="hair-length" name="What is your hair length?" required>
+              <option value="">---</option>
               <option value="Above my shoulders">Above my shoulders</option>
               <option value="To my shoulders">To my shoulders</option>
               <option value="To my back">To my back</option>
@@ -73,8 +76,8 @@
             <p>Have you ever worn extensions before?</p>
             <select name="Have you ever worn extensions before?" required>
               <option value="">---</option>
-              <option value="">Yes</option>
-              <option value="">No</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
             </select>
           </label>
         </div>
@@ -85,6 +88,7 @@
               name="What type of extensions have you worn before?"
               required
             >
+            <option value="">---</option>
               <option value="None">None</option>
               <option value="Fusion">Fusion</option>
               <option value="Clip">Clip</option>
@@ -97,6 +101,7 @@
           <label for="I am interested in adding">
             <p>I am interested in adding...</p>
             <select name="I am interested in adding" required>
+              <option value="">---</option>
               <option value="Volume">Volume</option>
               <option value="Length">Length</option>
               <option value="Volume & Length">Volume & Length</option>
@@ -111,6 +116,7 @@
               average?
             </p>
             <select name="Did you know the price?" required>
+              <option value="">---</option>
               <option value="No, I was not aware I would like to wait.">
                 No, I was not aware I would like to wait.
               </option>
