@@ -92,8 +92,8 @@ button:hover {
     background-color: #652a0e;
     color: white;
     height: 60px;
-    width: 40%;
-    margin: 20px auto;
+    width: 80%;
+    margin: 40px auto;
     display: flex;
     align-items: center;
     justify-content: center;
